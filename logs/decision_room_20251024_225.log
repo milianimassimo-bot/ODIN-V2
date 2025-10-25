@@ -1,0 +1,132 @@
+2025-10-24 02:25:02,893 | INFO | [PARAMS] Caricati da: C:\AUTOMAZIONE\params\current.json
+[MacroGate] risk_caps_multiplier=1.0 | asset_overrides=AUD/USD, GOLD, NZD/USD, SILVER, USD/CAD | guardrails={}
+ODIN bootstrap…
+2025-10-24 02:25:02,908 | INFO | --- Avvio Sala Decisionale ODIN v2.4.2 (PROD) ---
+2025-10-24 02:25:03,086 | INFO | Connessione a MT5 stabilita.
+2025-10-24 02:25:03,087 | INFO | Equity attuale: 5636.72 EUR
+2025-10-24 02:25:03,098 | INFO | Regime v2.2.1 OK (sha1 c2ab0ab0a5)
+2025-10-24 02:25:03,109 | INFO | [Universe] Attivi 16 asset dal file universe.json
+2025-10-24 02:25:03,109 | INFO | [Universe] attivo: 16 asset selezionati nella giornata.
+2025-10-24 02:25:03,110 | INFO | [Sentinel] Roster caricato correttamente. 9 strategie analizzate.
+2025-10-24 02:25:03,111 | INFO | [Universe] CHF/JPY: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='TRENDING', want='WEEKLY'
+2025-10-24 02:25:03,111 | INFO | [SIG-DBG] CHF/JPY: regime=TRENDING, active={'BB_MR_D1', 'EMA_Pullback_H4', 'Donchian_BO_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'EMA_Pullback_H4'}
+WARNING:cache_ohlc:[CACHE] CHF/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CHF/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CHF/JPY 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] CHF/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CHF/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CHF/JPY 1day (100 barre)
+2025-10-24 02:25:05,152 | INFO | [SIG-DBG] CHF/JPY: segnale generato da EMA_Pullback_H4
+2025-10-24 02:25:05,152 | INFO | [REJECT MACRO] CHF/JPY — MacroGate: allow_new_entries=False
+2025-10-24 02:25:06,127 | INFO | [Universe] EUR/JPY: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='TRENDING', want='WEEKLY'
+2025-10-24 02:25:06,128 | INFO | [SIG-DBG] EUR/JPY: regime=TRENDING, active={'BB_MR_D1', 'Keltner_MR_H4', 'EMA_Pullback_H4'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'EMA_Pullback_H4'}
+WARNING:cache_ohlc:[CACHE] EUR/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/JPY 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] EUR/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/JPY 1day (100 barre)
+2025-10-24 02:25:08,096 | INFO | [SIG-DBG] EUR/JPY: segnale generato da EMA_Pullback_H4
+2025-10-24 02:25:08,096 | INFO | [REJECT MACRO] EUR/JPY — MacroGate: allow_new_entries=False
+2025-10-24 02:25:09,055 | INFO | [Universe] GBP/NZD: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='TRENDING', want='WEEKLY'
+2025-10-24 02:25:09,057 | INFO | [SIG-DBG] GBP/NZD: regime=TRENDING, active={'BB_MR_D1', 'Keltner_MR_H4', 'EMA_Pullback_H4'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'EMA_Pullback_H4'}
+WARNING:cache_ohlc:[CACHE] GBP/NZD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/NZD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/NZD 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] GBP/NZD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/NZD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/NZD 1day (100 barre)
+2025-10-24 02:25:11,018 | INFO | [SIG-DBG] GBP/NZD: EMA_Pullback_H4: nessun pullback SHORT
+2025-10-24 02:25:11,018 | INFO | [SIG-DBG] GBP/NZD: nessun segnale da EMA_Pullback_H4
+2025-10-24 02:25:11,018 | INFO | [NO-SIGNAL] GBP/NZD: EMA_Pullback_H4: nessun pullback SHORT
+2025-10-24 02:25:11,018 | INFO | [Universe] AUD/CAD: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:11,018 | INFO | [SIG-DBG] AUD/CAD: regime=LATERALE, active={'EMA_Pullback_H4', 'Keltner_Trend_D1', 'Donchian_BO_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates=set()
+2025-10-24 02:25:11,018 | INFO | [NO-SIGNAL] AUD/CAD: nessun setup valido (regime=LATERALE).
+2025-10-24 02:25:11,019 | INFO | [Universe] AUD/JPY: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:11,019 | INFO | [SIG-DBG] AUD/JPY: regime=LATERALE, active={'Regime_Switcher_D1', 'BB_Squeeze_BO_D1', 'Donchian_BO_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates=set()
+2025-10-24 02:25:11,019 | INFO | [NO-SIGNAL] AUD/JPY: nessun setup valido (regime=LATERALE).
+2025-10-24 02:25:11,019 | INFO | [Universe] CAD/CHF: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:11,019 | INFO | [SIG-DBG] CAD/CHF: regime=LATERALE, active={'BB_MR_D1', 'Keltner_MR_H4', 'Regime_Switcher_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'BB_MR_D1', 'Keltner_MR_H4'}
+WARNING:cache_ohlc:[CACHE] CAD/CHF 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/CHF 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/CHF 1day (260 barre)
+2025-10-24 02:25:12,061 | INFO | [SIG-DBG] CAD/CHF: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-24 02:25:12,061 | INFO | [SIG-DBG] CAD/CHF: nessun segnale da BB_MR_D1
+INFO:cache_ohlc:[CACHE] MISS: CAD/CHF 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/CHF 4h (300 barre)
+INFO:cache_ohlc:[CACHE] MISS: CAD/CHF 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/CHF 1day (100 barre)
+2025-10-24 02:25:14,076 | INFO | [SIG-DBG] CAD/CHF: Keltner_MR_H4: nessun segnale MR (RSI=53.3)
+2025-10-24 02:25:14,076 | INFO | [SIG-DBG] CAD/CHF: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:14,076 | INFO | [NO-SIGNAL] CAD/CHF: Keltner_MR_H4: nessun segnale MR (RSI=53.3)
+2025-10-24 02:25:14,076 | INFO | [Universe] CAD/JPY: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:14,076 | INFO | [SIG-DBG] CAD/JPY: regime=LATERALE, active={'Keltner_MR_H4', 'EMA_Pullback_H4', 'Regime_Switcher_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'Keltner_MR_H4'}
+WARNING:cache_ohlc:[CACHE] CAD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/JPY 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] CAD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/JPY 1day (100 barre)
+2025-10-24 02:25:16,073 | INFO | [SIG-DBG] CAD/JPY: Keltner_MR_H4: nessun segnale MR (RSI=72.1)
+2025-10-24 02:25:16,076 | INFO | [SIG-DBG] CAD/JPY: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:16,076 | INFO | [NO-SIGNAL] CAD/JPY: Keltner_MR_H4: nessun segnale MR (RSI=72.1)
+2025-10-24 02:25:16,076 | INFO | [Universe] EUR/AUD: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:16,076 | INFO | [SIG-DBG] EUR/AUD: regime=LATERALE, active={'Keltner_MR_H4', 'EMA_Pullback_H4', 'Keltner_Trend_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'Keltner_MR_H4'}
+WARNING:cache_ohlc:[CACHE] EUR/AUD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/AUD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/AUD 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] EUR/AUD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/AUD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/AUD 1day (100 barre)
+2025-10-24 02:25:18,107 | INFO | [SIG-DBG] EUR/AUD: Keltner_MR_H4: nessun segnale MR (RSI=41.5)
+2025-10-24 02:25:18,107 | INFO | [SIG-DBG] EUR/AUD: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:18,107 | INFO | [NO-SIGNAL] EUR/AUD: Keltner_MR_H4: nessun segnale MR (RSI=41.5)
+2025-10-24 02:25:18,107 | INFO | [Universe] NZD/CAD: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:18,107 | INFO | [SIG-DBG] NZD/CAD: regime=LATERALE, active={'Keltner_Trend_D1', 'Keltner_MR_H4', 'Regime_Switcher_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'Keltner_MR_H4'}
+INFO:cache_ohlc:[CACHE] MISS: NZD/CAD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/CAD 4h (300 barre)
+INFO:cache_ohlc:[CACHE] MISS: NZD/CAD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/CAD 1day (100 barre)
+2025-10-24 02:25:20,144 | INFO | [SIG-DBG] NZD/CAD: Keltner_MR_H4: nessun segnale MR (RSI=53.6)
+2025-10-24 02:25:20,144 | INFO | [SIG-DBG] NZD/CAD: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:20,144 | INFO | [NO-SIGNAL] NZD/CAD: Keltner_MR_H4: nessun segnale MR (RSI=53.6)
+2025-10-24 02:25:20,144 | INFO | [Universe] NZD/JPY: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:20,144 | INFO | [SIG-DBG] NZD/JPY: regime=LATERALE, active={'Keltner_MR_H4', 'EMA_Pullback_H4', 'Regime_Switcher_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'Keltner_MR_H4'}
+WARNING:cache_ohlc:[CACHE] NZD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/JPY 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] NZD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/JPY 1day (100 barre)
+2025-10-24 02:25:22,180 | INFO | [SIG-DBG] NZD/JPY: Keltner_MR_H4: nessun segnale MR (RSI=68.6)
+2025-10-24 02:25:22,180 | INFO | [SIG-DBG] NZD/JPY: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:22,180 | INFO | [NO-SIGNAL] NZD/JPY: Keltner_MR_H4: nessun segnale MR (RSI=68.6)
+2025-10-24 02:25:22,180 | INFO | [Universe] NZD/USD: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:22,180 | INFO | [SIG-DBG] NZD/USD: regime=LATERALE, active={'Keltner_MR_H4', 'EMA_Pullback_H4', 'Regime_Switcher_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'Keltner_MR_H4'}
+WARNING:cache_ohlc:[CACHE] NZD/USD 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/USD 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/USD 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] NZD/USD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/USD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/USD 1day (100 barre)
+2025-10-24 02:25:24,202 | INFO | [SIG-DBG] NZD/USD: Keltner_MR_H4: nessun segnale MR (RSI=56.2)
+2025-10-24 02:25:24,202 | INFO | [SIG-DBG] NZD/USD: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:24,202 | INFO | [NO-SIGNAL] NZD/USD: Keltner_MR_H4: nessun segnale MR (RSI=56.2)
+2025-10-24 02:25:24,202 | INFO | [Universe] USD/JPY: OK (allowed {'KELTNER_TREND_D1', 'EMA_PULLBACK_H4', 'BB_SQUEEZE_BO_D1', 'KELTNER_MR_H4', 'DONCHIAN_BO_D1', 'REGIME_SWITCHER_D1', 'VOLTARGET_TREND_D1', 'BB_MR', 'BB_MR_D1', 'WEEKLY', 'EMA_TREND_D1'}) — regime='LATERALE', want='BB_MR'
+2025-10-24 02:25:24,202 | INFO | [SIG-DBG] USD/JPY: regime=LATERALE, active={'BB_MR_D1', 'Keltner_MR_H4', 'Regime_Switcher_D1'}, universe={'Keltner_MR_H4', 'EMA_Pullback_H4', 'VolTarget_Trend_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'Regime_Switcher_D1', 'Donchian_BO_D1', 'BB_MR_D1', 'BB_Squeeze_BO_D1', 'WEEKLY'}, candidates={'BB_MR_D1', 'Keltner_MR_H4'}
+WARNING:cache_ohlc:[CACHE] USD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/JPY 1day (260 barre)
+2025-10-24 02:25:25,234 | INFO | [SIG-DBG] USD/JPY: BB_MR: nessuna condizione di entry (incrocio/tocco bande + RSI)
+2025-10-24 02:25:25,234 | INFO | [SIG-DBG] USD/JPY: nessun segnale da BB_MR_D1
+WARNING:cache_ohlc:[CACHE] USD/JPY 4h: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/JPY 4h. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/JPY 4h (300 barre)
+WARNING:cache_ohlc:[CACHE] USD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/JPY 1day (100 barre)
+2025-10-24 02:25:27,219 | INFO | [SIG-DBG] USD/JPY: Keltner_MR_H4: nessun segnale MR (RSI=69.1)
+2025-10-24 02:25:27,220 | INFO | [SIG-DBG] USD/JPY: nessun segnale da Keltner_MR_H4
+2025-10-24 02:25:27,220 | INFO | [NO-SIGNAL] USD/JPY: Keltner_MR_H4: nessun segnale MR (RSI=69.1)
+2025-10-24 02:25:27,221 | INFO | --- Sessione decisionale completata ---
+2025-10-24 02:25:28,035 | INFO | Connessione a MT5 chiusa.

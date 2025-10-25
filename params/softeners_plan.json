@@ -1,0 +1,18 @@
+{
+  "generated_utc": "2025-10-25T09:30:03Z",
+  "version": "4.0_multi_strategy",
+  "notes": "Intelligent multi-strategy parameter optimization",
+  "confidence_threshold": 0.7,
+  "strategies_supported": [
+    "WEEKLY",
+    "BB_MR_D1",
+    "EMA_Trend_D1",
+    "Keltner_Trend_D1",
+    "VolTarget_Trend_D1",
+    "EMA_Pullback_H4",
+    "Keltner_MR_H4",
+    "Donchian_BO_D1",
+    "BB_Squeeze_BO_D1",
+    "Regime_Switcher_D1"
+  ]
+}

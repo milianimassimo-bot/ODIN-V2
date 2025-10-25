@@ -1,0 +1,1039 @@
+=== ODIN Trainer v4.0 MULTI-STRATEGY REPORT 2025-10-24T09:30:04Z ===
+DB: C:\AUTOMAZIONE\logs\odin_ml.db
+Retrain: C:\AUTOMAZIONE\params\retrain_metrics.json
+
+[ADVANCED SUMMARY]
+📊 MULTI-STRATEGY ANALYSIS
+ML trades: 4 | Retrain combinations: 168
+Avg confidence: 0.19 | Strategies: 10
+
+🏆 STRATEGY RANKING:
+1. WEEKLY: score=inf (ML:2tr, OOS:18active)
+2. BB_MR_D1: score=inf (ML:2tr, OOS:17active)
+3. VolTarget_Trend_D1: score=inf (ML:none, OOS:17active)
+4. Keltner_MR_H4: score=inf (ML:none, OOS:18active)
+5. Regime_Switcher_D1: score=inf (ML:none, OOS:18active)
+
+[DETAILED ANALYSIS]
+
+AUD/CAD/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=2.12, exp=0.373
+  Confidence: 0.15
+
+AUD/CAD/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=10, pf=0.47, exp=-0.443
+  Confidence: 0.25
+
+AUD/CAD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.65, exp=-0.168
+  Confidence: 0.33
+
+AUD/CAD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=17, pf=0.76, exp=-0.131
+  Confidence: 0.42
+
+AUD/CAD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.13, exp=-0.446
+  Confidence: 0.10
+
+AUD/CAD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=4.42, exp=0.775
+  Confidence: 0.07
+
+AUD/CAD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=1.21, exp=0.105
+  Confidence: 0.10
+
+AUD/CAD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.02, exp=-0.737
+  Confidence: 0.10
+
+AUD/CAD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.82, exp=-0.057
+  Confidence: 0.10
+
+AUD/CAD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.00, exp=-0.842
+  Confidence: 0.10
+
+AUD/CHF/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.52, exp=-0.323
+  Confidence: 0.07
+
+AUD/CHF/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=0.96, exp=-0.016
+  Confidence: 0.35
+
+AUD/CHF/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=1.05, exp=0.021
+  Confidence: 0.33
+
+AUD/CHF/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=9, pf=2.66, exp=0.237
+  Confidence: 0.23
+
+AUD/CHF/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.00, exp=-0.770
+  Confidence: 0.10
+
+AUD/CHF/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=1.87, exp=0.248
+  Confidence: 0.07
+
+AUD/CHF/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=2.69, exp=0.368
+  Confidence: 0.10
+
+AUD/CHF/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.29, exp=-0.217
+  Confidence: 0.10
+
+AUD/CHF/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=2.30, exp=0.282
+  Confidence: 0.10
+
+AUD/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=10, pf=2.90, exp=0.383
+  Confidence: 0.25
+
+AUD/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=0.46, exp=-0.218
+  Confidence: 0.28
+
+AUD/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=3.38, exp=0.633
+  Confidence: 0.35
+
+AUD/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=1.09, exp=0.047
+  Confidence: 0.15
+
+AUD/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=2.24, exp=0.355
+  Confidence: 0.17
+
+AUD/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=0.28, exp=-0.454
+  Confidence: 0.17
+
+AUD/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=3.11, exp=0.549
+  Confidence: 0.10
+
+AUD/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=1.22, exp=0.074
+  Confidence: 0.17
+
+AUD/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=1.28, exp=0.071
+  Confidence: 0.10
+
+CAD/CHF/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.02, exp=-0.654
+  Confidence: 0.07
+
+CAD/CHF/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=2.73, exp=0.368
+  Confidence: 0.17
+
+CAD/CHF/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.34, exp=-0.323
+  Confidence: 0.33
+
+CAD/CHF/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=15, pf=2.80, exp=0.316
+  Confidence: 0.38
+
+CAD/CHF/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=2.40, exp=0.368
+  Confidence: 0.10
+
+CAD/CHF/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.52, exp=-0.235
+  Confidence: 0.15
+
+CAD/CHF/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.45, exp=-0.301
+  Confidence: 0.15
+
+CAD/CHF/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=4.80, exp=0.589
+  Confidence: 0.10
+
+CAD/CHF/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.54, exp=-0.235
+  Confidence: 0.20
+
+CAD/CHF/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=45.34, exp=0.747
+  Confidence: 0.07
+
+CAD/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=4.46, exp=0.692
+  Confidence: 0.12
+
+CAD/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=0.29, exp=-0.327
+  Confidence: 0.35
+
+CAD/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=16, pf=0.64, exp=-0.208
+  Confidence: 0.40
+
+CAD/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.57, exp=-0.241
+  Confidence: 0.12
+
+CAD/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=1, pf=inf, exp=1.875
+  Confidence: 0.03
+
+CAD/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.03, exp=-0.621
+  Confidence: 0.07
+
+CAD/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.78, exp=-0.105
+  Confidence: 0.10
+
+CAD/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.54, exp=-0.267
+  Confidence: 0.33
+
+CAD/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.80, exp=-0.084
+  Confidence: 0.10
+
+CHF/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.43, exp=-0.380
+  Confidence: 0.15
+
+CHF/JPY/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=6.64, exp=1.195
+  Confidence: 0.20
+
+CHF/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=1.52, exp=0.249
+  Confidence: 0.28
+
+CHF/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=3.61, exp=0.744
+  Confidence: 0.35
+
+CHF/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=2.58, exp=0.526
+  Confidence: 0.15
+
+CHF/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.74, exp=-0.128
+  Confidence: 0.20
+
+CHF/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=1.53, exp=0.132
+  Confidence: 0.12
+
+CHF/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=5.21, exp=1.051
+  Confidence: 0.10
+
+CHF/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=1, pf=inf, exp=0.188
+  Confidence: 0.03
+
+CHF/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=5.60, exp=0.920
+  Confidence: 0.12
+
+EUR/AUD/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=9, pf=0.73, exp=-0.137
+  Confidence: 0.23
+
+EUR/AUD/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=10, pf=1.01, exp=0.007
+  Confidence: 0.25
+
+EUR/AUD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=0.96, exp=-0.021
+  Confidence: 0.35
+
+EUR/AUD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=2.39, exp=0.481
+  Confidence: 0.35
+
+EUR/AUD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=1.64, exp=0.213
+  Confidence: 0.15
+
+EUR/AUD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.76, exp=-0.163
+  Confidence: 0.15
+
+EUR/AUD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=2.01, exp=0.402
+  Confidence: 0.12
+
+EUR/AUD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=2.94, exp=0.486
+  Confidence: 0.10
+
+EUR/AUD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.69, exp=-0.104
+  Confidence: 0.07
+
+EUR/AUD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=2.36, exp=0.339
+  Confidence: 0.10
+
+EUR/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=1.13, exp=0.077
+  Confidence: 0.17
+
+EUR/JPY/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=11.65, exp=0.791
+  Confidence: 0.15
+
+EUR/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=9, pf=1.78, exp=0.268
+  Confidence: 0.23
+
+EUR/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=15, pf=1.50, exp=0.233
+  Confidence: 0.38
+
+EUR/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=2.16, exp=0.329
+  Confidence: 0.28
+
+EUR/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.40, exp=-0.357
+  Confidence: 0.12
+
+EUR/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.67, exp=-0.250
+  Confidence: 0.10
+
+EUR/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=110.81, exp=0.130
+  Confidence: 0.07
+
+EUR/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.13, exp=-0.487
+  Confidence: 0.20
+
+EUR/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=2, pf=2.48, exp=0.170
+  Confidence: 0.05
+
+EUR/NZD/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=0.23, exp=-0.657
+  Confidence: 0.17
+
+EUR/NZD/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=0.57, exp=-0.267
+  Confidence: 0.28
+
+EUR/NZD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=1.12, exp=0.056
+  Confidence: 0.33
+
+EUR/NZD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=5.37, exp=0.835
+  Confidence: 0.35
+
+EUR/NZD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=12, pf=3.63, exp=0.595
+  Confidence: 0.30
+
+EUR/NZD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=1.33, exp=0.166
+  Confidence: 0.20
+
+EUR/NZD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=1.14, exp=0.056
+  Confidence: 0.15
+
+EUR/NZD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=5.23, exp=0.847
+  Confidence: 0.12
+
+EUR/NZD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.38, exp=-0.276
+  Confidence: 0.07
+
+EUR/NZD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=3.50, exp=0.714
+  Confidence: 0.17
+
+EUR/USD/WEEKLY:
+  ML: n=2, avg=35.000, wr=1.00
+  Retrain: trades=0, pf=0.00, exp=0.000
+  Confidence: 0.10
+
+GBP/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=0, pf=0.00, exp=0.000
+  Confidence: 0.00
+
+GBP/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=12, pf=0.57, exp=-0.141
+  Confidence: 0.30
+
+GBP/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=17, pf=1.54, exp=0.232
+  Confidence: 0.42
+
+GBP/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=1.12, exp=0.072
+  Confidence: 0.12
+
+GBP/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=1, pf=inf, exp=1.853
+  Confidence: 0.03
+
+GBP/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.01, exp=-0.715
+  Confidence: 0.15
+
+GBP/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=5.08, exp=1.019
+  Confidence: 0.10
+
+GBP/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.58, exp=-0.264
+  Confidence: 0.20
+
+GBP/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=4.18, exp=0.639
+  Confidence: 0.12
+
+GBP/NZD/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=1.20, exp=0.099
+  Confidence: 0.20
+
+GBP/NZD/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=2.08, exp=0.307
+  Confidence: 0.20
+
+GBP/NZD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.49, exp=-0.304
+  Confidence: 0.33
+
+GBP/NZD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=16, pf=1.28, exp=0.113
+  Confidence: 0.40
+
+GBP/NZD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=2.12, exp=0.448
+  Confidence: 0.12
+
+GBP/NZD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.97, exp=-0.017
+  Confidence: 0.20
+
+GBP/NZD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=1.18, exp=0.083
+  Confidence: 0.12
+
+GBP/NZD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=inf, exp=0.192
+  Confidence: 0.07
+
+GBP/NZD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=2, pf=0.00, exp=-0.546
+  Confidence: 0.05
+
+GBP/NZD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=inf, exp=0.493
+  Confidence: 0.07
+
+GOLD/BB_MR_D1:
+  ML: n=2, avg=-12.500, wr=0.00
+  Retrain: trades=14, pf=0.31, exp=-0.545
+  Confidence: 0.45
+
+GOLD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=16, pf=2.17, exp=0.515
+  Confidence: 0.40
+
+GOLD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=4.07, exp=0.838
+  Confidence: 0.28
+
+GOLD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=4.47, exp=0.991
+  Confidence: 0.17
+
+GOLD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=16, pf=0.29, exp=-0.620
+  Confidence: 0.40
+
+GOLD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=2.61, exp=0.586
+  Confidence: 0.28
+
+GOLD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=14.55, exp=0.956
+  Confidence: 0.10
+
+GOLD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=10, pf=4.10, exp=1.240
+  Confidence: 0.25
+
+GOLD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=3.61, exp=0.654
+  Confidence: 0.10
+
+NZD/CAD/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=4.41, exp=0.853
+  Confidence: 0.10
+
+NZD/CAD/BB_Squeeze_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.15, exp=-0.357
+  Confidence: 0.20
+
+NZD/CAD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.05, exp=-0.578
+  Confidence: 0.33
+
+NZD/CAD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=15, pf=0.76, exp=-0.097
+  Confidence: 0.38
+
+NZD/CAD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=0.41, exp=-0.228
+  Confidence: 0.28
+
+NZD/CAD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=2.99, exp=0.674
+  Confidence: 0.07
+
+NZD/CAD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=0.22, exp=-0.582
+  Confidence: 0.20
+
+NZD/CAD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=2.62, exp=0.287
+  Confidence: 0.10
+
+NZD/CAD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.18, exp=-0.313
+  Confidence: 0.07
+
+NZD/CAD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.87, exp=-0.062
+  Confidence: 0.10
+
+NZD/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=inf, exp=0.780
+  Confidence: 0.15
+
+NZD/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=0.27, exp=-0.467
+  Confidence: 0.35
+
+NZD/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=16, pf=2.26, exp=0.543
+  Confidence: 0.40
+
+NZD/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=0.41, exp=-0.421
+  Confidence: 0.17
+
+NZD/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=3.24, exp=0.747
+  Confidence: 0.07
+
+NZD/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.16, exp=-0.581
+  Confidence: 0.15
+
+NZD/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.09, exp=-0.549
+  Confidence: 0.12
+
+NZD/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.62, exp=-0.212
+  Confidence: 0.33
+
+NZD/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=0.03, exp=-0.811
+  Confidence: 0.15
+
+NZD/USD/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=7.83, exp=0.819
+  Confidence: 0.15
+
+NZD/USD/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=0.25, exp=-0.537
+  Confidence: 0.35
+
+NZD/USD/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=17, pf=1.06, exp=0.032
+  Confidence: 0.42
+
+NZD/USD/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=0.57, exp=-0.213
+  Confidence: 0.28
+
+NZD/USD/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=2, pf=1.64, exp=0.321
+  Confidence: 0.05
+
+NZD/USD/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.49, exp=-0.309
+  Confidence: 0.12
+
+NZD/USD/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.00, exp=-0.549
+  Confidence: 0.10
+
+NZD/USD/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=0.52, exp=-0.297
+  Confidence: 0.33
+
+NZD/USD/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.49, exp=-0.414
+  Confidence: 0.10
+
+SILVER/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=0.42, exp=-0.501
+  Confidence: 0.17
+
+SILVER/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=13, pf=1.43, exp=0.231
+  Confidence: 0.33
+
+SILVER/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=14, pf=2.40, exp=0.488
+  Confidence: 0.35
+
+SILVER/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=7, pf=5.00, exp=1.143
+  Confidence: 0.17
+
+SILVER/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=0.51, exp=-0.311
+  Confidence: 0.28
+
+SILVER/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=10, pf=1.62, exp=0.235
+  Confidence: 0.25
+
+SILVER/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=inf, exp=1.184
+  Confidence: 0.10
+
+SILVER/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=inf, exp=1.416
+  Confidence: 0.10
+
+USD/JPY/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=0.59, exp=-0.164
+  Confidence: 0.10
+
+USD/JPY/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=11, pf=1.27, exp=0.077
+  Confidence: 0.28
+
+USD/JPY/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=15, pf=1.95, exp=0.366
+  Confidence: 0.38
+
+USD/JPY/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.00, exp=-0.801
+  Confidence: 0.12
+
+USD/JPY/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.00, exp=-0.691
+  Confidence: 0.07
+
+USD/JPY/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=6, pf=1.10, exp=0.038
+  Confidence: 0.15
+
+USD/JPY/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.00, exp=-0.801
+  Confidence: 0.12
+
+USD/JPY/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=12, pf=1.28, exp=0.112
+  Confidence: 0.30
+
+USD/JPY/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=0.00, exp=-0.859
+  Confidence: 0.12
+
+USD/SEK/BB_MR_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=9, pf=2.14, exp=0.380
+  Confidence: 0.23
+
+USD/SEK/Donchian_BO_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=9, pf=0.79, exp=-0.095
+  Confidence: 0.23
+
+USD/SEK/EMA_Pullback_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=12, pf=1.72, exp=0.281
+  Confidence: 0.30
+
+USD/SEK/EMA_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=10, pf=3.34, exp=0.396
+  Confidence: 0.25
+
+USD/SEK/Keltner_MR_H4:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=3, pf=0.85, exp=-0.097
+  Confidence: 0.07
+
+USD/SEK/Keltner_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=5, pf=1.11, exp=0.048
+  Confidence: 0.12
+
+USD/SEK/Regime_Switcher_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=1.01, exp=0.007
+  Confidence: 0.10
+
+USD/SEK/VolTarget_Trend_D1:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=8, pf=1.09, exp=0.017
+  Confidence: 0.20
+
+USD/SEK/WEEKLY:
+  ML: n=0, avg=0.000, wr=0.00
+  Retrain: trades=4, pf=1.06, exp=0.032
+  Confidence: 0.10
+
+[OPTIMIZATION DECISIONS]
+⚪️ EUR/USD/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ GOLD/BB_MR_D1: confidence 0.45 < 0.7, skip
+⚪️ AUD/CAD/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ AUD/CAD/BB_MR_D1: confidence 0.15 < 0.7, skip
+⚪️ AUD/CAD/EMA_Trend_D1: confidence 0.10 < 0.7, skip
+⚪️ AUD/CAD/Keltner_Trend_D1: confidence 0.10 < 0.7, skip
+⚪️ AUD/CAD/VolTarget_Trend_D1: confidence 0.10 < 0.7, skip
+⚪️ AUD/CAD/EMA_Pullback_H4: confidence 0.42 < 0.7, skip
+⚪️ AUD/CAD/Keltner_MR_H4: confidence 0.07 < 0.7, skip
+⚪️ AUD/CAD/Donchian_BO_D1: confidence 0.33 < 0.7, skip
+⚪️ AUD/CAD/BB_Squeeze_BO_D1: confidence 0.25 < 0.7, skip
+⚪️ AUD/CAD/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ CHF/JPY/WEEKLY: confidence 0.12 < 0.7, skip
+⚪️ CHF/JPY/BB_MR_D1: confidence 0.15 < 0.7, skip
+⚪️ CHF/JPY/EMA_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ CHF/JPY/Keltner_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ CHF/JPY/VolTarget_Trend_D1: confidence 0.03 < 0.7, skip
+⚪️ CHF/JPY/EMA_Pullback_H4: confidence 0.35 < 0.7, skip
+⚪️ CHF/JPY/Keltner_MR_H4: confidence 0.20 < 0.7, skip
+⚪️ CHF/JPY/Donchian_BO_D1: confidence 0.28 < 0.7, skip
+⚪️ CHF/JPY/BB_Squeeze_BO_D1: confidence 0.20 < 0.7, skip
+⚪️ CHF/JPY/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ EUR/AUD/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ EUR/AUD/BB_MR_D1: confidence 0.23 < 0.7, skip
+⚪️ EUR/AUD/EMA_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ EUR/AUD/Keltner_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ EUR/AUD/VolTarget_Trend_D1: confidence 0.07 < 0.7, skip
+⚪️ EUR/AUD/EMA_Pullback_H4: confidence 0.35 < 0.7, skip
+⚪️ EUR/AUD/Keltner_MR_H4: confidence 0.15 < 0.7, skip
+⚪️ EUR/AUD/Donchian_BO_D1: confidence 0.35 < 0.7, skip
+⚪️ EUR/AUD/BB_Squeeze_BO_D1: confidence 0.25 < 0.7, skip
+⚪️ EUR/AUD/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ GBP/NZD/WEEKLY: confidence 0.07 < 0.7, skip
+⚪️ GBP/NZD/BB_MR_D1: confidence 0.20 < 0.7, skip
+⚪️ GBP/NZD/EMA_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ GBP/NZD/Keltner_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ GBP/NZD/VolTarget_Trend_D1: confidence 0.05 < 0.7, skip
+⚪️ GBP/NZD/EMA_Pullback_H4: confidence 0.40 < 0.7, skip
+⚪️ GBP/NZD/Keltner_MR_H4: confidence 0.20 < 0.7, skip
+⚪️ GBP/NZD/Donchian_BO_D1: confidence 0.33 < 0.7, skip
+⚪️ GBP/NZD/BB_Squeeze_BO_D1: confidence 0.20 < 0.7, skip
+⚪️ GBP/NZD/Regime_Switcher_D1: confidence 0.07 < 0.7, skip
+⚪️ CAD/JPY/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ CAD/JPY/BB_MR_D1: confidence 0.12 < 0.7, skip
+⚪️ CAD/JPY/EMA_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ CAD/JPY/Keltner_Trend_D1: confidence 0.07 < 0.7, skip
+⚪️ CAD/JPY/VolTarget_Trend_D1: confidence 0.33 < 0.7, skip
+⚪️ CAD/JPY/EMA_Pullback_H4: confidence 0.40 < 0.7, skip
+⚪️ CAD/JPY/Keltner_MR_H4: confidence 0.03 < 0.7, skip
+⚪️ CAD/JPY/Donchian_BO_D1: confidence 0.35 < 0.7, skip
+⚪️ CAD/JPY/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ GBP/JPY/WEEKLY: confidence 0.12 < 0.7, skip
+⚪️ GBP/JPY/BB_MR_D1: confidence 0.00 < 0.7, skip
+⚪️ GBP/JPY/EMA_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ GBP/JPY/Keltner_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ GBP/JPY/VolTarget_Trend_D1: confidence 0.20 < 0.7, skip
+⚪️ GBP/JPY/EMA_Pullback_H4: confidence 0.42 < 0.7, skip
+⚪️ GBP/JPY/Keltner_MR_H4: confidence 0.03 < 0.7, skip
+⚪️ GBP/JPY/Donchian_BO_D1: confidence 0.30 < 0.7, skip
+⚪️ GBP/JPY/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ AUD/JPY/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ AUD/JPY/BB_MR_D1: confidence 0.25 < 0.7, skip
+⚪️ AUD/JPY/EMA_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ AUD/JPY/Keltner_Trend_D1: confidence 0.17 < 0.7, skip
+⚪️ AUD/JPY/VolTarget_Trend_D1: confidence 0.17 < 0.7, skip
+⚪️ AUD/JPY/EMA_Pullback_H4: confidence 0.35 < 0.7, skip
+⚪️ AUD/JPY/Keltner_MR_H4: confidence 0.17 < 0.7, skip
+⚪️ AUD/JPY/Donchian_BO_D1: confidence 0.28 < 0.7, skip
+⚪️ AUD/JPY/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ USD/JPY/WEEKLY: confidence 0.12 < 0.7, skip
+⚪️ USD/JPY/BB_MR_D1: confidence 0.10 < 0.7, skip
+⚪️ USD/JPY/EMA_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ USD/JPY/Keltner_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ USD/JPY/VolTarget_Trend_D1: confidence 0.30 < 0.7, skip
+⚪️ USD/JPY/EMA_Pullback_H4: confidence 0.38 < 0.7, skip
+⚪️ USD/JPY/Keltner_MR_H4: confidence 0.07 < 0.7, skip
+⚪️ USD/JPY/Donchian_BO_D1: confidence 0.28 < 0.7, skip
+⚪️ USD/JPY/Regime_Switcher_D1: confidence 0.12 < 0.7, skip
+⚪️ EUR/JPY/WEEKLY: confidence 0.05 < 0.7, skip
+⚪️ EUR/JPY/BB_MR_D1: confidence 0.17 < 0.7, skip
+⚪️ EUR/JPY/EMA_Trend_D1: confidence 0.28 < 0.7, skip
+⚪️ EUR/JPY/Keltner_Trend_D1: confidence 0.10 < 0.7, skip
+⚪️ EUR/JPY/VolTarget_Trend_D1: confidence 0.20 < 0.7, skip
+⚪️ EUR/JPY/EMA_Pullback_H4: confidence 0.38 < 0.7, skip
+⚪️ EUR/JPY/Keltner_MR_H4: confidence 0.12 < 0.7, skip
+⚪️ EUR/JPY/Donchian_BO_D1: confidence 0.23 < 0.7, skip
+⚪️ EUR/JPY/BB_Squeeze_BO_D1: confidence 0.15 < 0.7, skip
+⚪️ EUR/JPY/Regime_Switcher_D1: confidence 0.07 < 0.7, skip
+⚪️ NZD/JPY/WEEKLY: confidence 0.15 < 0.7, skip
+⚪️ NZD/JPY/BB_MR_D1: confidence 0.15 < 0.7, skip
+⚪️ NZD/JPY/EMA_Trend_D1: confidence 0.17 < 0.7, skip
+⚪️ NZD/JPY/Keltner_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ NZD/JPY/VolTarget_Trend_D1: confidence 0.33 < 0.7, skip
+⚪️ NZD/JPY/EMA_Pullback_H4: confidence 0.40 < 0.7, skip
+⚪️ NZD/JPY/Keltner_MR_H4: confidence 0.07 < 0.7, skip
+⚪️ NZD/JPY/Donchian_BO_D1: confidence 0.35 < 0.7, skip
+⚪️ NZD/JPY/Regime_Switcher_D1: confidence 0.12 < 0.7, skip
+⚪️ CAD/CHF/WEEKLY: confidence 0.07 < 0.7, skip
+⚪️ CAD/CHF/BB_MR_D1: confidence 0.07 < 0.7, skip
+⚪️ CAD/CHF/EMA_Trend_D1: confidence 0.10 < 0.7, skip
+⚪️ CAD/CHF/Keltner_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ CAD/CHF/VolTarget_Trend_D1: confidence 0.20 < 0.7, skip
+⚪️ CAD/CHF/EMA_Pullback_H4: confidence 0.38 < 0.7, skip
+⚪️ CAD/CHF/Keltner_MR_H4: confidence 0.15 < 0.7, skip
+⚪️ CAD/CHF/Donchian_BO_D1: confidence 0.33 < 0.7, skip
+⚪️ CAD/CHF/BB_Squeeze_BO_D1: confidence 0.17 < 0.7, skip
+⚪️ CAD/CHF/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ NZD/USD/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ NZD/USD/BB_MR_D1: confidence 0.15 < 0.7, skip
+⚪️ NZD/USD/EMA_Trend_D1: confidence 0.28 < 0.7, skip
+⚪️ NZD/USD/Keltner_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ NZD/USD/VolTarget_Trend_D1: confidence 0.33 < 0.7, skip
+⚪️ NZD/USD/EMA_Pullback_H4: confidence 0.42 < 0.7, skip
+⚪️ NZD/USD/Keltner_MR_H4: confidence 0.05 < 0.7, skip
+⚪️ NZD/USD/Donchian_BO_D1: confidence 0.35 < 0.7, skip
+⚪️ NZD/USD/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ NZD/CAD/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ NZD/CAD/BB_MR_D1: confidence 0.10 < 0.7, skip
+⚪️ NZD/CAD/EMA_Trend_D1: confidence 0.28 < 0.7, skip
+⚪️ NZD/CAD/Keltner_Trend_D1: confidence 0.20 < 0.7, skip
+⚪️ NZD/CAD/VolTarget_Trend_D1: confidence 0.07 < 0.7, skip
+⚪️ NZD/CAD/EMA_Pullback_H4: confidence 0.38 < 0.7, skip
+⚪️ NZD/CAD/Keltner_MR_H4: confidence 0.07 < 0.7, skip
+⚪️ NZD/CAD/Donchian_BO_D1: confidence 0.33 < 0.7, skip
+⚪️ NZD/CAD/BB_Squeeze_BO_D1: confidence 0.20 < 0.7, skip
+⚪️ NZD/CAD/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ USD/SEK/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ USD/SEK/BB_MR_D1: confidence 0.23 < 0.7, skip
+⚪️ USD/SEK/EMA_Trend_D1: confidence 0.25 < 0.7, skip
+⚪️ USD/SEK/Keltner_Trend_D1: confidence 0.12 < 0.7, skip
+⚪️ USD/SEK/VolTarget_Trend_D1: confidence 0.20 < 0.7, skip
+⚪️ USD/SEK/EMA_Pullback_H4: confidence 0.30 < 0.7, skip
+⚪️ USD/SEK/Keltner_MR_H4: confidence 0.07 < 0.7, skip
+⚪️ USD/SEK/Donchian_BO_D1: confidence 0.23 < 0.7, skip
+⚪️ USD/SEK/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ EUR/NZD/WEEKLY: confidence 0.17 < 0.7, skip
+⚪️ EUR/NZD/BB_MR_D1: confidence 0.17 < 0.7, skip
+⚪️ EUR/NZD/EMA_Trend_D1: confidence 0.30 < 0.7, skip
+⚪️ EUR/NZD/Keltner_Trend_D1: confidence 0.15 < 0.7, skip
+⚪️ EUR/NZD/VolTarget_Trend_D1: confidence 0.07 < 0.7, skip
+⚪️ EUR/NZD/EMA_Pullback_H4: confidence 0.35 < 0.7, skip
+⚪️ EUR/NZD/Keltner_MR_H4: confidence 0.20 < 0.7, skip
+⚪️ EUR/NZD/Donchian_BO_D1: confidence 0.33 < 0.7, skip
+⚪️ EUR/NZD/BB_Squeeze_BO_D1: confidence 0.28 < 0.7, skip
+⚪️ EUR/NZD/Regime_Switcher_D1: confidence 0.12 < 0.7, skip
+⚪️ AUD/CHF/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ AUD/CHF/BB_MR_D1: confidence 0.07 < 0.7, skip
+⚪️ AUD/CHF/EMA_Trend_D1: confidence 0.23 < 0.7, skip
+⚪️ AUD/CHF/Keltner_Trend_D1: confidence 0.07 < 0.7, skip
+⚪️ AUD/CHF/VolTarget_Trend_D1: confidence 0.10 < 0.7, skip
+⚪️ AUD/CHF/EMA_Pullback_H4: confidence 0.33 < 0.7, skip
+⚪️ AUD/CHF/Keltner_MR_H4: confidence 0.10 < 0.7, skip
+⚪️ AUD/CHF/Donchian_BO_D1: confidence 0.35 < 0.7, skip
+⚪️ AUD/CHF/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ GOLD/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ GOLD/EMA_Trend_D1: confidence 0.17 < 0.7, skip
+⚪️ GOLD/Keltner_Trend_D1: confidence 0.28 < 0.7, skip
+⚪️ GOLD/VolTarget_Trend_D1: confidence 0.25 < 0.7, skip
+⚪️ GOLD/EMA_Pullback_H4: confidence 0.28 < 0.7, skip
+⚪️ GOLD/Keltner_MR_H4: confidence 0.40 < 0.7, skip
+⚪️ GOLD/Donchian_BO_D1: confidence 0.40 < 0.7, skip
+⚪️ GOLD/Regime_Switcher_D1: confidence 0.10 < 0.7, skip
+⚪️ SILVER/WEEKLY: confidence 0.10 < 0.7, skip
+⚪️ SILVER/BB_MR_D1: confidence 0.17 < 0.7, skip
+⚪️ SILVER/EMA_Trend_D1: confidence 0.17 < 0.7, skip
+⚪️ SILVER/Keltner_Trend_D1: confidence 0.25 < 0.7, skip
+⚪️ SILVER/EMA_Pullback_H4: confidence 0.35 < 0.7, skip
+⚪️ SILVER/Keltner_MR_H4: confidence 0.28 < 0.7, skip
+⚪️ SILVER/Donchian_BO_D1: confidence 0.33 < 0.7, skip
+⚪️ SILVER/Regime_Switcher_D1: confidence 0.10 < 0.7, skip

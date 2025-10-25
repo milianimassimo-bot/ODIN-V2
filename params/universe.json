@@ -1,0 +1,825 @@
+{
+  "generated_utc": "2025-10-24T22:45:43Z",
+  "items": [
+    {
+      "asset": "CHF/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.46,
+          "ema50-ema200": 6.10528,
+          "slope50": 0.87258,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.46,
+          "BBW": 0.0362,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "CHF/JPY"
+    },
+    {
+      "asset": "EUR/AUD",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.59,
+          "ema50-ema200": 0.02284,
+          "slope50": 0.00057,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.59,
+          "BBW": 0.0229,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "EUR/AUD"
+    },
+    {
+      "asset": "GBP/NZD",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.54,
+          "ema50-ema200": 0.04358,
+          "slope50": 0.00218,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.54,
+          "BBW": 0.0206,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "GBP/NZD"
+    },
+    {
+      "asset": "CAD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.66,
+          "ema50-ema200": 0.604,
+          "slope50": 0.3102,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.66,
+          "BBW": 0.0388,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "CAD/JPY"
+    },
+    {
+      "asset": "GBP/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.56,
+          "ema50-ema200": 3.26225,
+          "slope50": 0.50345,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.56,
+          "BBW": 0.0279,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "GBP/JPY"
+    },
+    {
+      "asset": "AUD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.8,
+          "ema50-ema200": 1.40756,
+          "slope50": 0.27527,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.8,
+          "BBW": 0.0388,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "AUD/JPY"
+    },
+    {
+      "asset": "USD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.67,
+          "ema50-ema200": 1.10045,
+          "slope50": 0.61039,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.67,
+          "BBW": 0.0413,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "USD/JPY"
+    },
+    {
+      "asset": "EUR/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.49,
+          "ema50-ema200": 4.75387,
+          "slope50": 0.53785,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.49,
+          "BBW": 0.0277,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "EUR/JPY"
+    },
+    {
+      "asset": "AUD/CAD",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.59,
+          "ema50-ema200": 0.0081,
+          "slope50": -6e-05,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.59,
+          "BBW": 0.0211,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "AUD/CAD"
+    },
+    {
+      "asset": "NZD/JPY",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.71,
+          "ema50-ema200": -0.25316,
+          "slope50": 0.13902,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.71,
+          "BBW": 0.0344,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "NZD/JPY"
+    },
+    {
+      "asset": "CAD/CHF",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.62,
+          "ema50-ema200": -0.01648,
+          "slope50": -0.00098,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.62,
+          "BBW": 0.0213,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "CAD/CHF"
+    },
+    {
+      "asset": "NZD/USD",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.64,
+          "ema50-ema200": -0.00671,
+          "slope50": -0.00139,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.64,
+          "BBW": 0.0292,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "NZD/USD"
+    },
+    {
+      "asset": "USD/SEK",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.69,
+          "ema50-ema200": -0.28953,
+          "slope50": -0.00907,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.69,
+          "BBW": 0.0236,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "USD/SEK"
+    },
+    {
+      "asset": "EUR/NZD",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 3,
+        "BB_MR": 2
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.53,
+          "ema50-ema200": 0.0598,
+          "slope50": 0.00302,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.53,
+          "BBW": 0.0195,
+          "ok_atr": true,
+          "ok_bbw": false
+        }
+      },
+      "td": "EUR/NZD"
+    },
+    {
+      "asset": "AUD/CHF",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.82,
+          "ema50-ema200": -0.0102,
+          "slope50": -0.00094,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.82,
+          "BBW": 0.035,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "AUD/CHF"
+    },
+    {
+      "asset": "USD/NOK",
+      "strategies": [
+        "WEEKLY",
+        "EMA_Trend_D1",
+        "Keltner_Trend_D1",
+        "VolTarget_Trend_D1",
+        "EMA_Pullback_H4",
+        "Regime_Switcher_D1",
+        "BB_MR",
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1"
+      ],
+      "scores": {
+        "WEEKLY": 2,
+        "BB_MR": 3
+      },
+      "metrics": {
+        "WEEKLY": {
+          "ATR%": 0.73,
+          "ema50-ema200": -0.23086,
+          "slope50": -0.00372,
+          "in_range": true
+        },
+        "BB_MR": {
+          "ATR%": 0.73,
+          "BBW": 0.0245,
+          "ok_atr": true,
+          "ok_bbw": true
+        }
+      },
+      "td": "USD/NOK"
+    }
+  ],
+  "picks": [
+    {
+      "asset": "CHF/JPY"
+    },
+    {
+      "asset": "EUR/AUD"
+    },
+    {
+      "asset": "GBP/NZD"
+    },
+    {
+      "asset": "CAD/JPY"
+    },
+    {
+      "asset": "GBP/JPY"
+    },
+    {
+      "asset": "AUD/JPY"
+    },
+    {
+      "asset": "USD/JPY"
+    },
+    {
+      "asset": "EUR/JPY"
+    },
+    {
+      "asset": "AUD/CAD"
+    },
+    {
+      "asset": "NZD/JPY"
+    },
+    {
+      "asset": "CAD/CHF"
+    },
+    {
+      "asset": "NZD/USD"
+    },
+    {
+      "asset": "USD/SEK"
+    },
+    {
+      "asset": "EUR/NZD"
+    },
+    {
+      "asset": "AUD/CHF"
+    },
+    {
+      "asset": "USD/NOK"
+    }
+  ],
+  "allow": {
+    "CHF/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "EUR/AUD": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "GBP/NZD": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "CAD/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "GBP/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "AUD/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "USD/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "EUR/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "AUD/CAD": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "NZD/JPY": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "CAD/CHF": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "NZD/USD": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "USD/SEK": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "EUR/NZD": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "AUD/CHF": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ],
+    "USD/NOK": [
+      "WEEKLY",
+      "EMA_Trend_D1",
+      "Keltner_Trend_D1",
+      "VolTarget_Trend_D1",
+      "EMA_Pullback_H4",
+      "Regime_Switcher_D1",
+      "BB_MR",
+      "BB_MR_D1",
+      "Keltner_MR_H4",
+      "Donchian_BO_D1",
+      "BB_Squeeze_BO_D1"
+    ]
+  }
+}

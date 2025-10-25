@@ -1,0 +1,941 @@
+{
+  "asof_utc": "2025-10-24T23:15:31+00:00",
+  "universe": [
+    "CHF/JPY",
+    "EUR/AUD",
+    "GBP/NZD",
+    "CAD/JPY",
+    "GBP/JPY",
+    "AUD/JPY",
+    "USD/JPY",
+    "EUR/JPY",
+    "AUD/CAD",
+    "NZD/JPY",
+    "CAD/CHF",
+    "NZD/USD",
+    "USD/SEK",
+    "EUR/NZD",
+    "AUD/CHF",
+    "USD/NOK"
+  ],
+  "ranking_global": [
+    {
+      "strategy": "Keltner_MR_H4",
+      "avg_score": 0.5948
+    },
+    {
+      "strategy": "Regime_Switcher_D1",
+      "avg_score": 0.553
+    },
+    {
+      "strategy": "BB_MR_D1",
+      "avg_score": 0.549
+    },
+    {
+      "strategy": "EMA_Pullback_H4",
+      "avg_score": 0.3893
+    },
+    {
+      "strategy": "Donchian_BO_D1",
+      "avg_score": 0.3438
+    },
+    {
+      "strategy": "Keltner_Trend_D1",
+      "avg_score": 0.3398
+    },
+    {
+      "strategy": "BB_Squeeze_BO_D1",
+      "avg_score": 0.2664
+    },
+    {
+      "strategy": "EMA_Trend_D1",
+      "avg_score": 0.2094
+    },
+    {
+      "strategy": "VolTarget_Trend_D1",
+      "avg_score": 0.0
+    }
+  ],
+  "per_asset": {
+    "AUD/CAD": {
+      "active": [
+        "Donchian_BO_D1",
+        "EMA_Pullback_H4",
+        "Keltner_MR_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Trend_D1",
+          "score": 0.2093666666666667,
+          "pf": 0.698,
+          "dd": 0.143,
+          "sharpe": -1.835,
+          "trades": 3
+        },
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.3716875,
+          "pf": 0.93,
+          "dd": 0.018,
+          "sharpe": -0.495,
+          "trades": 20
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.7637583333333333,
+          "pf": 2.719,
+          "dd": 0.01,
+          "sharpe": 0.858,
+          "trades": 11
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.33158333333333334,
+          "pf": 0.869,
+          "dd": 0.016,
+          "sharpe": -0.864,
+          "trades": 10
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.3018375,
+          "pf": 0.624,
+          "dd": 0.045,
+          "sharpe": -0.563,
+          "trades": 8
+        }
+      ]
+    },
+    "CHF/JPY": {
+      "active": [
+        "BB_MR_D1",
+        "Keltner_Trend_D1",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.47969999999999996,
+          "pf": 1.09,
+          "dd": 0.021,
+          "sharpe": 0.488,
+          "trades": 18
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.8258958333333334,
+          "pf": 2.994,
+          "dd": 0.004,
+          "sharpe": 1.051,
+          "trades": 9
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.40223749999999997,
+          "pf": 0.933,
+          "dd": 0.018,
+          "sharpe": -0.151,
+          "trades": 24
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.5158791666666667,
+          "pf": 1.269,
+          "dd": 0.02,
+          "sharpe": 0.587,
+          "trades": 10
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.321275,
+          "pf": 0.875,
+          "dd": 0.021,
+          "sharpe": -0.954,
+          "trades": 15
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.19133333333333336,
+          "pf": 0.0,
+          "dd": 0.013,
+          "sharpe": -1.137,
+          "trades": 3
+        }
+      ]
+    },
+    "EUR/AUD": {
+      "active": [
+        "Keltner_MR_H4",
+        "Keltner_Trend_D1",
+        "BB_MR_D1"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.5271291666666666,
+          "pf": 1.118,
+          "dd": 0.008,
+          "sharpe": 0.883,
+          "trades": 21
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.5482833333333333,
+          "pf": 1.551,
+          "dd": 0.004,
+          "sharpe": 0.352,
+          "trades": 4
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.3917833333333334,
+          "pf": 0.944,
+          "dd": 0.046,
+          "sharpe": -0.076,
+          "trades": 20
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.6446791666666666,
+          "pf": 2.034,
+          "dd": 0.032,
+          "sharpe": 0.839,
+          "trades": 3
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.8356666666666667,
+          "pf": 1.94,
+          "dd": 0.008,
+          "sharpe": 4.154,
+          "trades": 20
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.2437875,
+          "pf": 0.555,
+          "dd": 0.084,
+          "sharpe": -0.811,
+          "trades": 12
+        }
+      ]
+    },
+    "GBP/NZD": {
+      "active": [
+        "Keltner_MR_H4",
+        "BB_MR_D1",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.32834166666666664,
+          "pf": 0.873,
+          "dd": 0.011,
+          "sharpe": -0.946,
+          "trades": 18
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.35778333333333334,
+          "pf": 0.673,
+          "dd": 0.004,
+          "sharpe": -0.32,
+          "trades": 4
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.22396666666666668,
+          "pf": 0.342,
+          "dd": 0.041,
+          "sharpe": -1.728,
+          "trades": 15
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.25043333333333334,
+          "pf": 0.474,
+          "dd": 0.031,
+          "sharpe": -1.185,
+          "trades": 9
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.9882,
+          "pf": 2.948,
+          "dd": 0.006,
+          "sharpe": 4.916,
+          "trades": 18
+        }
+      ]
+    },
+    "CAD/JPY": {
+      "active": [
+        "Regime_Switcher_D1",
+        "BB_MR_D1",
+        "Keltner_MR_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.28885000000000005,
+          "pf": 0.699,
+          "dd": 0.024,
+          "sharpe": -2.886,
+          "trades": 19
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.8429708333333333,
+          "pf": 15.178,
+          "dd": 0.001,
+          "sharpe": 1.213,
+          "trades": 3
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.23023333333333335,
+          "pf": 0.406,
+          "dd": 0.046,
+          "sharpe": -1.239,
+          "trades": 13
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.22080000000000002,
+          "pf": 0.272,
+          "dd": 0.03,
+          "sharpe": -1.788,
+          "trades": 8
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.35910833333333336,
+          "pf": 0.932,
+          "dd": 0.028,
+          "sharpe": -0.566,
+          "trades": 19
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.18646666666666667,
+          "pf": 0.052,
+          "dd": 0.032,
+          "sharpe": -1.666,
+          "trades": 5
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.9250916666666666,
+          "pf": 9.62,
+          "dd": 0.005,
+          "sharpe": 2.182,
+          "trades": 14
+        }
+      ]
+    },
+    "GBP/JPY": {
+      "active": [
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.40175416666666663,
+          "pf": 0.973,
+          "dd": 0.023,
+          "sharpe": -0.187,
+          "trades": 22
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.8444583333333333,
+          "pf": 10.173,
+          "dd": 0.001,
+          "sharpe": 1.23,
+          "trades": 3
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.23896666666666666,
+          "pf": 0.442,
+          "dd": 0.041,
+          "sharpe": -1.53,
+          "trades": 15
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.323575,
+          "pf": 0.657,
+          "dd": 0.021,
+          "sharpe": -0.554,
+          "trades": 5
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.6052333333333333,
+          "pf": 1.295,
+          "dd": 0.019,
+          "sharpe": 1.556,
+          "trades": 13
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.38402083333333337,
+          "pf": 0.796,
+          "dd": 0.004,
+          "sharpe": -0.231,
+          "trades": 4
+        }
+      ]
+    },
+    "AUD/JPY": {
+      "active": [
+        "Donchian_BO_D1",
+        "BB_Squeeze_BO_D1",
+        "BB_MR_D1"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.29303333333333337,
+          "pf": 0.798,
+          "dd": 0.04,
+          "sharpe": -1.466,
+          "trades": 22
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.40566250000000004,
+          "pf": 0.867,
+          "dd": 0.003,
+          "sharpe": -0.113,
+          "trades": 4
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.4882375,
+          "pf": 1.218,
+          "dd": 0.024,
+          "sharpe": 0.389,
+          "trades": 14
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.2261166666666667,
+          "pf": 0.453,
+          "dd": 0.068,
+          "sharpe": -0.96,
+          "trades": 7
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.3652708333333333,
+          "pf": 0.93,
+          "dd": 0.025,
+          "sharpe": -0.515,
+          "trades": 20
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.40726666666666667,
+          "pf": 0.915,
+          "dd": 0.011,
+          "sharpe": -0.116,
+          "trades": 5
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.4026458333333333,
+          "pf": 1.027,
+          "dd": 0.064,
+          "sharpe": 0.043,
+          "trades": 13
+        }
+      ]
+    },
+    "USD/JPY": {
+      "active": [
+        "Regime_Switcher_D1",
+        "Keltner_MR_H4",
+        "BB_MR_D1"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.29378333333333334,
+          "pf": 0.763,
+          "dd": 0.031,
+          "sharpe": -2.251,
+          "trades": 21
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.34703333333333336,
+          "pf": 0.635,
+          "dd": 0.01,
+          "sharpe": -0.332,
+          "trades": 3
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.23823333333333335,
+          "pf": 0.486,
+          "dd": 0.052,
+          "sharpe": -1.291,
+          "trades": 16
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.27730000000000005,
+          "pf": 0.676,
+          "dd": 0.054,
+          "sharpe": -0.864,
+          "trades": 12
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.35406666666666664,
+          "pf": 0.932,
+          "dd": 0.029,
+          "sharpe": -0.616,
+          "trades": 21
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.5437458333333334,
+          "pf": 1.431,
+          "dd": 0.022,
+          "sharpe": 0.643,
+          "trades": 13
+        }
+      ]
+    },
+    "EUR/JPY": {
+      "active": [
+        "BB_MR_D1",
+        "Keltner_MR_H4",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.43905833333333333,
+          "pf": 1.023,
+          "dd": 0.022,
+          "sharpe": 0.146,
+          "trades": 17
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.8542916666666667,
+          "pf": 8.939,
+          "dd": 0.002,
+          "sharpe": 1.35,
+          "trades": 4
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.26685000000000003,
+          "pf": 0.579,
+          "dd": 0.03,
+          "sharpe": -1.109,
+          "trades": 19
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.26115000000000005,
+          "pf": 0.541,
+          "dd": 0.03,
+          "sharpe": -1.262,
+          "trades": 11
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.4994416666666667,
+          "pf": 1.1,
+          "dd": 0.017,
+          "sharpe": 0.666,
+          "trades": 16
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.18933333333333335,
+          "pf": 0.0,
+          "dd": 0.016,
+          "sharpe": -1.499,
+          "trades": 3
+        }
+      ]
+    },
+    "NZD/JPY": {
+      "active": [
+        "Regime_Switcher_D1",
+        "Keltner_MR_H4",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.2682833333333333,
+          "pf": 0.633,
+          "dd": 0.04,
+          "sharpe": -2.732,
+          "trades": 12
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.2665833333333334,
+          "pf": 0.555,
+          "dd": 0.025,
+          "sharpe": -1.003,
+          "trades": 15
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.2572,
+          "pf": 0.492,
+          "dd": 0.048,
+          "sharpe": -0.824,
+          "trades": 6
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.5128708333333334,
+          "pf": 1.104,
+          "dd": 0.016,
+          "sharpe": 0.805,
+          "trades": 22
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.5562541666666666,
+          "pf": 1.505,
+          "dd": 0.017,
+          "sharpe": 0.621,
+          "trades": 10
+        }
+      ]
+    },
+    "CAD/CHF": {
+      "active": [
+        "BB_MR_D1",
+        "EMA_Pullback_H4",
+        "Keltner_MR_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.43890833333333334,
+          "pf": 1.014,
+          "dd": 0.016,
+          "sharpe": 0.114,
+          "trades": 19
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.8146875,
+          "pf": 3.156,
+          "dd": 0.003,
+          "sharpe": 0.905,
+          "trades": 4
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.28023750000000003,
+          "pf": 0.547,
+          "dd": 0.027,
+          "sharpe": -0.815,
+          "trades": 12
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.21818333333333334,
+          "pf": 0.339,
+          "dd": 0.049,
+          "sharpe": -1.326,
+          "trades": 9
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.407925,
+          "pf": 0.956,
+          "dd": 0.009,
+          "sharpe": -0.194,
+          "trades": 6
+        }
+      ]
+    },
+    "NZD/USD": {
+      "active": [
+        "Regime_Switcher_D1",
+        "Keltner_MR_H4",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.37958333333333333,
+          "pf": 0.949,
+          "dd": 0.025,
+          "sharpe": -0.384,
+          "trades": 17
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.2664375,
+          "pf": 0.357,
+          "dd": 0.006,
+          "sharpe": -0.807,
+          "trades": 3
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.23043333333333332,
+          "pf": 0.394,
+          "dd": 0.043,
+          "sharpe": -1.585,
+          "trades": 18
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.25046666666666667,
+          "pf": 0.492,
+          "dd": 0.035,
+          "sharpe": -1.187,
+          "trades": 11
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.7378,
+          "pf": 1.447,
+          "dd": 0.015,
+          "sharpe": 2.78,
+          "trades": 21
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.31401666666666667,
+          "pf": 0.475,
+          "dd": 0.002,
+          "sharpe": -0.496,
+          "trades": 3
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.9059541666666666,
+          "pf": 5.651,
+          "dd": 0.011,
+          "sharpe": 2.009,
+          "trades": 13
+        }
+      ]
+    },
+    "USD/SEK": {
+      "active": [
+        "Keltner_MR_H4",
+        "Regime_Switcher_D1",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.5329916666666666,
+          "pf": 1.126,
+          "dd": 0.014,
+          "sharpe": 0.982,
+          "trades": 18
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.38727083333333334,
+          "pf": 0.851,
+          "dd": 0.022,
+          "sharpe": -0.151,
+          "trades": 5
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.4030625,
+          "pf": 0.985,
+          "dd": 0.045,
+          "sharpe": -0.025,
+          "trades": 15
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.4106208333333333,
+          "pf": 1.013,
+          "dd": 0.046,
+          "sharpe": 0.021,
+          "trades": 9
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.9434166666666667,
+          "pf": 2.645,
+          "dd": 0.005,
+          "sharpe": 4.547,
+          "trades": 14
+        },
+        {
+          "strategy": "BB_Squeeze_BO_D1",
+          "score": 0.19266666666666668,
+          "pf": 0.0,
+          "dd": 0.011,
+          "sharpe": -1.526,
+          "trades": 3
+        },
+        {
+          "strategy": "Regime_Switcher_D1",
+          "score": 0.5444083333333333,
+          "pf": 1.511,
+          "dd": 0.052,
+          "sharpe": 0.742,
+          "trades": 16
+        }
+      ]
+    },
+    "EUR/NZD": {
+      "active": [
+        "Keltner_MR_H4",
+        "Donchian_BO_D1",
+        "Keltner_Trend_D1"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.3351833333333334,
+          "pf": 0.878,
+          "dd": 0.01,
+          "sharpe": -0.884,
+          "trades": 17
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.24563333333333334,
+          "pf": 0.362,
+          "dd": 0.013,
+          "sharpe": -1.086,
+          "trades": 8
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.4859916666666667,
+          "pf": 1.182,
+          "dd": 0.011,
+          "sharpe": 0.326,
+          "trades": 17
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.44671250000000007,
+          "pf": 1.091,
+          "dd": 0.027,
+          "sharpe": 0.155,
+          "trades": 6
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.7188999999999999,
+          "pf": 1.432,
+          "dd": 0.009,
+          "sharpe": 2.544,
+          "trades": 24
+        }
+      ]
+    },
+    "AUD/CHF": {
+      "active": [
+        "Keltner_MR_H4",
+        "Keltner_Trend_D1",
+        "EMA_Pullback_H4"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.43397083333333336,
+          "pf": 1.004,
+          "dd": 0.01,
+          "sharpe": 0.029,
+          "trades": 23
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.2876916666666667,
+          "pf": 0.6,
+          "dd": 0.062,
+          "sharpe": -0.554,
+          "trades": 13
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.4472541666666666,
+          "pf": 1.173,
+          "dd": 0.047,
+          "sharpe": 0.173,
+          "trades": 4
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.7514166666666667,
+          "pf": 1.852,
+          "dd": 0.008,
+          "sharpe": 2.188,
+          "trades": 8
+        }
+      ]
+    },
+    "USD/NOK": {
+      "active": [
+        "Keltner_MR_H4",
+        "EMA_Pullback_H4",
+        "BB_MR_D1"
+      ],
+      "candidates": [
+        {
+          "strategy": "EMA_Pullback_H4",
+          "score": 0.41628333333333334,
+          "pf": 0.988,
+          "dd": 0.016,
+          "sharpe": -0.1,
+          "trades": 21
+        },
+        {
+          "strategy": "BB_MR_D1",
+          "score": 0.3972375,
+          "pf": 0.866,
+          "dd": 0.012,
+          "sharpe": -0.139,
+          "trades": 4
+        },
+        {
+          "strategy": "Donchian_BO_D1",
+          "score": 0.3032958333333333,
+          "pf": 0.67,
+          "dd": 0.055,
+          "sharpe": -0.549,
+          "trades": 19
+        },
+        {
+          "strategy": "Keltner_Trend_D1",
+          "score": 0.3471208333333333,
+          "pf": 0.825,
+          "dd": 0.058,
+          "sharpe": -0.291,
+          "trades": 6
+        },
+        {
+          "strategy": "Keltner_MR_H4",
+          "score": 0.7843,
+          "pf": 1.602,
+          "dd": 0.009,
+          "sharpe": 3.003,
+          "trades": 15
+        }
+      ]
+    }
+  }
+}

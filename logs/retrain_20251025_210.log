@@ -1,0 +1,485 @@
+2025-10-25 02:10:06,194 | INFO | RETRAIN_UNIVERSE_SOURCE=ROSTER, INCLUDE_METALS=True, RETRAIN_ONLY=(none)
+2025-10-25 02:10:06,196 | INFO | --- ODIN Retrain MULTI-STRATEGIA ---
+2025-10-25 02:10:07,143 | INFO | [UNIVERSE] source=ROSTER, roster_path='C:\AUTOMAZIONE\params\strategy_roster.json', count=18, labels=['CHF/JPY', 'EUR/AUD', 'GBP/NZD', 'CAD/JPY', 'GBP/JPY', 'AUD/JPY', 'USD/JPY', 'EUR/JPY', 'AUD/CAD', 'NZD/JPY', 'CAD/CHF', 'NZD/USD', 'USD/SEK', 'EUR/NZD', 'AUD/CHF', 'USD/NOK', 'GOLD', 'SILVER']
+2025-10-25 02:10:07,143 | INFO | [CHF/JPY] cache TwelveData…
+2025-10-25 02:10:08,729 | INFO | [CHF/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:08,817 | INFO | [CHF/JPY] WEEKLY: IS=14 trades, OOS=6 trades, PF=7.00
+2025-10-25 02:10:08,817 | INFO | [CHF/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:08,900 | INFO | [CHF/JPY] BB_MR_D1: IS=11 trades, OOS=6 trades, PF=0.43
+2025-10-25 02:10:08,913 | INFO | [CHF/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:08,963 | INFO | [CHF/JPY] EMA_Trend_D1: IS=25 trades, OOS=11 trades, PF=1.70
+2025-10-25 02:10:08,963 | INFO | [CHF/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:09,030 | INFO | [CHF/JPY] Keltner_Trend_D1: IS=10 trades, OOS=5 trades, PF=1.53
+2025-10-25 02:10:09,030 | INFO | [CHF/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:09,151 | INFO | [CHF/JPY] VolTarget_Trend_D1: IS=14 trades, OOS=1 trades, PF=inf
+2025-10-25 02:10:09,151 | INFO | [CHF/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:09,190 | INFO | [CHF/JPY] EMA_Pullback_H4: IS=31 trades, OOS=13 trades, PF=3.16
+2025-10-25 02:10:09,190 | INFO | [CHF/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:09,327 | INFO | [CHF/JPY] Keltner_MR_H4: IS=13 trades, OOS=8 trades, PF=0.59
+2025-10-25 02:10:09,327 | INFO | [CHF/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:09,329 | INFO | [CHF/JPY] Donchian_BO_D1: IS=20 trades, OOS=11 trades, PF=1.52
+2025-10-25 02:10:09,329 | INFO | [CHF/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:09,437 | INFO | [CHF/JPY] BB_Squeeze_BO_D1: IS=11 trades, OOS=8 trades, PF=6.64
+2025-10-25 02:10:09,437 | INFO | [CHF/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:09,499 | INFO | [CHF/JPY] Regime_Switcher_D1: IS=15 trades, OOS=4 trades, PF=5.21
+2025-10-25 02:10:09,499 | INFO | [CHF/JPY] OOS PASSED - Strategie attive: WEEKLY, EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1, BB_Squeeze_BO_D1
+2025-10-25 02:10:09,813 | INFO | [EUR/AUD] cache TwelveData…
+2025-10-25 02:10:11,350 | INFO | [EUR/AUD] Processing strategy: WEEKLY
+2025-10-25 02:10:11,355 | INFO | [EUR/AUD] WEEKLY: IS=14 trades, OOS=4 trades, PF=1.55
+2025-10-25 02:10:11,355 | INFO | [EUR/AUD] Processing strategy: BB_MR_D1
+2025-10-25 02:10:11,466 | INFO | [EUR/AUD] BB_MR_D1: IS=13 trades, OOS=9 trades, PF=0.73
+2025-10-25 02:10:11,466 | INFO | [EUR/AUD] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:11,466 | INFO | [EUR/AUD] EMA_Trend_D1: IS=18 trades, OOS=7 trades, PF=1.20
+2025-10-25 02:10:11,466 | INFO | [EUR/AUD] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:11,661 | INFO | [EUR/AUD] Keltner_Trend_D1: IS=8 trades, OOS=5 trades, PF=2.01
+2025-10-25 02:10:11,662 | INFO | [EUR/AUD] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:11,729 | INFO | [EUR/AUD] VolTarget_Trend_D1: IS=14 trades, OOS=3 trades, PF=0.69
+2025-10-25 02:10:11,729 | INFO | [EUR/AUD] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:11,819 | INFO | [EUR/AUD] EMA_Pullback_H4: IS=33 trades, OOS=14 trades, PF=2.34
+2025-10-25 02:10:11,819 | INFO | [EUR/AUD] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:11,913 | INFO | [EUR/AUD] Keltner_MR_H4: IS=7 trades, OOS=6 trades, PF=0.76
+2025-10-25 02:10:11,913 | INFO | [EUR/AUD] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:11,966 | INFO | [EUR/AUD] Donchian_BO_D1: IS=23 trades, OOS=14 trades, PF=0.96
+2025-10-25 02:10:11,966 | INFO | [EUR/AUD] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:12,034 | INFO | [EUR/AUD] BB_Squeeze_BO_D1: IS=15 trades, OOS=10 trades, PF=1.01
+2025-10-25 02:10:12,034 | INFO | [EUR/AUD] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:12,096 | INFO | [EUR/AUD] Regime_Switcher_D1: IS=15 trades, OOS=4 trades, PF=0.00
+2025-10-25 02:10:12,096 | INFO | [EUR/AUD] OOS PASSED - Strategie attive: EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:12,485 | INFO | [GBP/NZD] cache TwelveData…
+2025-10-25 02:10:14,066 | INFO | [GBP/NZD] Processing strategy: WEEKLY
+2025-10-25 02:10:14,080 | INFO | [GBP/NZD] WEEKLY: IS=14 trades, OOS=3 trades, PF=inf
+2025-10-25 02:10:14,080 | INFO | [GBP/NZD] Processing strategy: BB_MR_D1
+2025-10-25 02:10:14,234 | INFO | [GBP/NZD] BB_MR_D1: IS=17 trades, OOS=8 trades, PF=1.20
+2025-10-25 02:10:14,234 | INFO | [GBP/NZD] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:14,299 | INFO | [GBP/NZD] EMA_Trend_D1: IS=17 trades, OOS=5 trades, PF=2.12
+2025-10-25 02:10:14,299 | INFO | [GBP/NZD] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:14,346 | INFO | [GBP/NZD] Keltner_Trend_D1: IS=9 trades, OOS=5 trades, PF=1.17
+2025-10-25 02:10:14,346 | INFO | [GBP/NZD] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:14,346 | INFO | [GBP/NZD] VolTarget_Trend_D1: IS=9 trades, OOS=2 trades, PF=0.00
+2025-10-25 02:10:14,346 | INFO | [GBP/NZD] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:14,538 | INFO | [GBP/NZD] EMA_Pullback_H4: IS=31 trades, OOS=16 trades, PF=1.28
+2025-10-25 02:10:14,538 | INFO | [GBP/NZD] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:14,629 | INFO | [GBP/NZD] Keltner_MR_H4: IS=8 trades, OOS=8 trades, PF=0.96
+2025-10-25 02:10:14,629 | INFO | [GBP/NZD] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:14,651 | INFO | [GBP/NZD] Donchian_BO_D1: IS=24 trades, OOS=14 trades, PF=0.52
+2025-10-25 02:10:14,651 | INFO | [GBP/NZD] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:14,765 | INFO | [GBP/NZD] BB_Squeeze_BO_D1: IS=15 trades, OOS=8 trades, PF=2.08
+2025-10-25 02:10:14,765 | INFO | [GBP/NZD] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:14,816 | INFO | [GBP/NZD] Regime_Switcher_D1: IS=14 trades, OOS=3 trades, PF=inf
+2025-10-25 02:10:14,816 | INFO | [GBP/NZD] OOS PASSED - Strategie attive: BB_MR_D1, EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, BB_Squeeze_BO_D1
+2025-10-25 02:10:15,130 | INFO | [CAD/JPY] cache TwelveData…
+2025-10-25 02:10:16,661 | INFO | [CAD/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:16,740 | INFO | [CAD/JPY] WEEKLY: IS=13 trades, OOS=4 trades, PF=0.80
+2025-10-25 02:10:16,740 | INFO | [CAD/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:16,837 | INFO | [CAD/JPY] BB_MR_D1: IS=17 trades, OOS=5 trades, PF=4.46
+2025-10-25 02:10:16,837 | INFO | [CAD/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:16,901 | INFO | [CAD/JPY] EMA_Trend_D1: IS=20 trades, OOS=7 trades, PF=0.71
+2025-10-25 02:10:16,901 | INFO | [CAD/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:17,013 | INFO | [CAD/JPY] Keltner_Trend_D1: IS=10 trades, OOS=3 trades, PF=0.03
+2025-10-25 02:10:17,013 | INFO | [CAD/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:17,082 | INFO | [CAD/JPY] VolTarget_Trend_D1: IS=21 trades, OOS=12 trades, PF=0.57
+2025-10-25 02:10:17,082 | INFO | [CAD/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:17,082 | INFO | [CAD/JPY] EMA_Pullback_H4: IS=32 trades, OOS=16 trades, PF=0.68
+2025-10-25 02:10:17,082 | INFO | [CAD/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:17,299 | INFO | [CAD/JPY] Keltner_MR_H4: IS=11 trades, OOS=1 trades, PF=inf
+2025-10-25 02:10:17,299 | INFO | [CAD/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:17,363 | INFO | [CAD/JPY] Donchian_BO_D1: IS=25 trades, OOS=14 trades, PF=0.29
+2025-10-25 02:10:17,363 | INFO | [CAD/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:17,401 | INFO | [CAD/JPY] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:17,401 | INFO | [CAD/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:17,434 | INFO | [CAD/JPY] Regime_Switcher_D1: IS=15 trades, OOS=4 trades, PF=0.78
+2025-10-25 02:10:17,434 | INFO | [CAD/JPY] OOS PASSED - Strategie attive: BB_MR_D1
+2025-10-25 02:10:17,766 | INFO | [GBP/JPY] cache TwelveData…
+2025-10-25 02:10:19,283 | INFO | [GBP/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:19,356 | INFO | [GBP/JPY] WEEKLY: IS=14 trades, OOS=5 trades, PF=3.77
+2025-10-25 02:10:19,356 | INFO | [GBP/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:19,451 | INFO | [GBP/JPY] BB_MR_D1: IS=10 trades, OOS=1 trades, PF=inf
+2025-10-25 02:10:19,451 | INFO | [GBP/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:19,517 | INFO | [GBP/JPY] EMA_Trend_D1: IS=17 trades, OOS=5 trades, PF=1.12
+2025-10-25 02:10:19,517 | INFO | [GBP/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:19,617 | INFO | [GBP/JPY] Keltner_Trend_D1: IS=14 trades, OOS=5 trades, PF=0.02
+2025-10-25 02:10:19,617 | INFO | [GBP/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:19,663 | INFO | [GBP/JPY] VolTarget_Trend_D1: IS=23 trades, OOS=10 trades, PF=0.27
+2025-10-25 02:10:19,663 | INFO | [GBP/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:19,772 | INFO | [GBP/JPY] EMA_Pullback_H4: IS=28 trades, OOS=17 trades, PF=1.54
+2025-10-25 02:10:19,772 | INFO | [GBP/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:19,897 | INFO | [GBP/JPY] Keltner_MR_H4: IS=13 trades, OOS=2 trades, PF=inf
+2025-10-25 02:10:19,897 | INFO | [GBP/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:19,950 | INFO | [GBP/JPY] Donchian_BO_D1: IS=27 trades, OOS=12 trades, PF=0.44
+2025-10-25 02:10:19,950 | INFO | [GBP/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:20,001 | INFO | [GBP/JPY] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:20,001 | INFO | [GBP/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:20,051 | INFO | [GBP/JPY] Regime_Switcher_D1: IS=17 trades, OOS=4 trades, PF=4.80
+2025-10-25 02:10:20,051 | INFO | [GBP/JPY] OOS PASSED - Strategie attive: WEEKLY, EMA_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:20,366 | INFO | [AUD/JPY] cache TwelveData…
+2025-10-25 02:10:21,881 | INFO | [AUD/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:21,955 | INFO | [AUD/JPY] WEEKLY: IS=11 trades, OOS=4 trades, PF=1.28
+2025-10-25 02:10:21,955 | INFO | [AUD/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:22,049 | INFO | [AUD/JPY] BB_MR_D1: IS=12 trades, OOS=10 trades, PF=2.90
+2025-10-25 02:10:22,049 | INFO | [AUD/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:22,112 | INFO | [AUD/JPY] EMA_Trend_D1: IS=22 trades, OOS=6 trades, PF=1.09
+2025-10-25 02:10:22,112 | INFO | [AUD/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:22,217 | INFO | [AUD/JPY] Keltner_Trend_D1: IS=14 trades, OOS=7 trades, PF=0.28
+2025-10-25 02:10:22,219 | INFO | [AUD/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:22,315 | INFO | [AUD/JPY] VolTarget_Trend_D1: IS=20 trades, OOS=7 trades, PF=1.21
+2025-10-25 02:10:22,315 | INFO | [AUD/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:22,397 | INFO | [AUD/JPY] EMA_Pullback_H4: IS=31 trades, OOS=14 trades, PF=3.89
+2025-10-25 02:10:22,397 | INFO | [AUD/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:22,449 | INFO | [AUD/JPY] Keltner_MR_H4: IS=13 trades, OOS=6 trades, PF=4.61
+2025-10-25 02:10:22,449 | INFO | [AUD/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:22,539 | INFO | [AUD/JPY] Donchian_BO_D1: IS=23 trades, OOS=11 trades, PF=0.46
+2025-10-25 02:10:22,539 | INFO | [AUD/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:22,539 | INFO | [AUD/JPY] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:22,539 | INFO | [AUD/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:22,652 | INFO | [AUD/JPY] Regime_Switcher_D1: IS=14 trades, OOS=4 trades, PF=3.11
+2025-10-25 02:10:22,652 | INFO | [AUD/JPY] OOS PASSED - Strategie attive: BB_MR_D1, EMA_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4, Keltner_MR_H4
+2025-10-25 02:10:22,963 | INFO | [USD/JPY] cache TwelveData…
+2025-10-25 02:10:24,546 | INFO | [USD/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:24,613 | INFO | [USD/JPY] WEEKLY: IS=15 trades, OOS=5 trades, PF=0.00
+2025-10-25 02:10:24,613 | INFO | [USD/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:24,648 | INFO | [USD/JPY] BB_MR_D1: IS=13 trades, OOS=4 trades, PF=0.59
+2025-10-25 02:10:24,648 | INFO | [USD/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:24,755 | INFO | [USD/JPY] EMA_Trend_D1: IS=21 trades, OOS=5 trades, PF=0.00
+2025-10-25 02:10:24,755 | INFO | [USD/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:24,858 | INFO | [USD/JPY] Keltner_Trend_D1: IS=20 trades, OOS=6 trades, PF=1.10
+2025-10-25 02:10:24,858 | INFO | [USD/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:24,944 | INFO | [USD/JPY] VolTarget_Trend_D1: IS=19 trades, OOS=12 trades, PF=1.28
+2025-10-25 02:10:24,944 | INFO | [USD/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:25,017 | INFO | [USD/JPY] EMA_Pullback_H4: IS=30 trades, OOS=15 trades, PF=1.95
+2025-10-25 02:10:25,017 | INFO | [USD/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:25,133 | INFO | [USD/JPY] Keltner_MR_H4: IS=17 trades, OOS=3 trades, PF=0.00
+2025-10-25 02:10:25,133 | INFO | [USD/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:25,195 | INFO | [USD/JPY] Donchian_BO_D1: IS=25 trades, OOS=11 trades, PF=1.27
+2025-10-25 02:10:25,195 | INFO | [USD/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:25,195 | INFO | [USD/JPY] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:25,195 | INFO | [USD/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:25,284 | INFO | [USD/JPY] Regime_Switcher_D1: IS=18 trades, OOS=5 trades, PF=0.00
+2025-10-25 02:10:25,284 | INFO | [USD/JPY] OOS PASSED - Strategie attive: Keltner_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1
+2025-10-25 02:10:25,597 | INFO | [EUR/JPY] cache TwelveData…
+2025-10-25 02:10:27,096 | INFO | [EUR/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:27,173 | INFO | [EUR/JPY] WEEKLY: IS=12 trades, OOS=2 trades, PF=2.48
+2025-10-25 02:10:27,173 | INFO | [EUR/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:27,256 | INFO | [EUR/JPY] BB_MR_D1: IS=15 trades, OOS=7 trades, PF=1.13
+2025-10-25 02:10:27,258 | INFO | [EUR/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:27,317 | INFO | [EUR/JPY] EMA_Trend_D1: IS=26 trades, OOS=10 trades, PF=6.15
+2025-10-25 02:10:27,317 | INFO | [EUR/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:27,413 | INFO | [EUR/JPY] Keltner_Trend_D1: IS=11 trades, OOS=4 trades, PF=0.67
+2025-10-25 02:10:27,413 | INFO | [EUR/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:27,497 | INFO | [EUR/JPY] VolTarget_Trend_D1: IS=21 trades, OOS=8 trades, PF=0.22
+2025-10-25 02:10:27,497 | INFO | [EUR/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:27,577 | INFO | [EUR/JPY] EMA_Pullback_H4: IS=32 trades, OOS=16 trades, PF=1.76
+2025-10-25 02:10:27,577 | INFO | [EUR/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:27,657 | INFO | [EUR/JPY] Keltner_MR_H4: IS=13 trades, OOS=5 trades, PF=0.01
+2025-10-25 02:10:27,657 | INFO | [EUR/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:27,706 | INFO | [EUR/JPY] Donchian_BO_D1: IS=22 trades, OOS=9 trades, PF=1.78
+2025-10-25 02:10:27,706 | INFO | [EUR/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:27,706 | INFO | [EUR/JPY] BB_Squeeze_BO_D1: IS=8 trades, OOS=6 trades, PF=11.65
+2025-10-25 02:10:27,706 | INFO | [EUR/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:27,842 | INFO | [EUR/JPY] Regime_Switcher_D1: IS=13 trades, OOS=3 trades, PF=110.81
+2025-10-25 02:10:27,842 | INFO | [EUR/JPY] OOS PASSED - Strategie attive: BB_MR_D1, EMA_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1, BB_Squeeze_BO_D1
+2025-10-25 02:10:28,157 | INFO | [AUD/CAD] cache TwelveData…
+2025-10-25 02:10:29,667 | INFO | [AUD/CAD] Processing strategy: WEEKLY
+2025-10-25 02:10:29,751 | INFO | [AUD/CAD] WEEKLY: IS=14 trades, OOS=4 trades, PF=0.00
+2025-10-25 02:10:29,751 | INFO | [AUD/CAD] Processing strategy: BB_MR_D1
+2025-10-25 02:10:29,828 | INFO | [AUD/CAD] BB_MR_D1: IS=12 trades, OOS=6 trades, PF=2.12
+2025-10-25 02:10:29,828 | INFO | [AUD/CAD] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:29,828 | INFO | [AUD/CAD] EMA_Trend_D1: IS=15 trades, OOS=4 trades, PF=0.04
+2025-10-25 02:10:29,828 | INFO | [AUD/CAD] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:29,993 | INFO | [AUD/CAD] Keltner_Trend_D1: IS=9 trades, OOS=4 trades, PF=1.21
+2025-10-25 02:10:29,993 | INFO | [AUD/CAD] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:30,052 | INFO | [AUD/CAD] VolTarget_Trend_D1: IS=18 trades, OOS=4 trades, PF=0.82
+2025-10-25 02:10:30,052 | INFO | [AUD/CAD] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:30,130 | INFO | [AUD/CAD] EMA_Pullback_H4: IS=36 trades, OOS=17 trades, PF=0.76
+2025-10-25 02:10:30,130 | INFO | [AUD/CAD] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:30,213 | INFO | [AUD/CAD] Keltner_MR_H4: IS=7 trades, OOS=3 trades, PF=4.41
+2025-10-25 02:10:30,213 | INFO | [AUD/CAD] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:30,288 | INFO | [AUD/CAD] Donchian_BO_D1: IS=25 trades, OOS=13 trades, PF=0.65
+2025-10-25 02:10:30,288 | INFO | [AUD/CAD] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:30,331 | INFO | [AUD/CAD] BB_Squeeze_BO_D1: IS=14 trades, OOS=11 trades, PF=1.52
+2025-10-25 02:10:30,331 | INFO | [AUD/CAD] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:30,399 | INFO | [AUD/CAD] Regime_Switcher_D1: IS=17 trades, OOS=4 trades, PF=0.02
+2025-10-25 02:10:30,399 | INFO | [AUD/CAD] OOS PASSED - Strategie attive: BB_MR_D1, BB_Squeeze_BO_D1
+2025-10-25 02:10:30,708 | INFO | [NZD/JPY] cache TwelveData…
+2025-10-25 02:10:32,197 | INFO | [NZD/JPY] Processing strategy: WEEKLY
+2025-10-25 02:10:32,263 | INFO | [NZD/JPY] WEEKLY: IS=12 trades, OOS=5 trades, PF=0.00
+2025-10-25 02:10:32,263 | INFO | [NZD/JPY] Processing strategy: BB_MR_D1
+2025-10-25 02:10:32,363 | INFO | [NZD/JPY] BB_MR_D1: IS=8 trades, OOS=6 trades, PF=inf
+2025-10-25 02:10:32,363 | INFO | [NZD/JPY] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:32,425 | INFO | [NZD/JPY] EMA_Trend_D1: IS=19 trades, OOS=7 trades, PF=0.41
+2025-10-25 02:10:32,425 | INFO | [NZD/JPY] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:32,516 | INFO | [NZD/JPY] Keltner_Trend_D1: IS=10 trades, OOS=6 trades, PF=0.16
+2025-10-25 02:10:32,516 | INFO | [NZD/JPY] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:32,600 | INFO | [NZD/JPY] VolTarget_Trend_D1: IS=20 trades, OOS=11 trades, PF=0.86
+2025-10-25 02:10:32,600 | INFO | [NZD/JPY] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:32,600 | INFO | [NZD/JPY] EMA_Pullback_H4: IS=32 trades, OOS=18 trades, PF=2.20
+2025-10-25 02:10:32,600 | INFO | [NZD/JPY] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:32,800 | INFO | [NZD/JPY] Keltner_MR_H4: IS=12 trades, OOS=3 trades, PF=inf
+2025-10-25 02:10:32,800 | INFO | [NZD/JPY] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:32,877 | INFO | [NZD/JPY] Donchian_BO_D1: IS=23 trades, OOS=15 trades, PF=0.25
+2025-10-25 02:10:32,877 | INFO | [NZD/JPY] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:32,915 | INFO | [NZD/JPY] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:32,917 | INFO | [NZD/JPY] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:32,967 | INFO | [NZD/JPY] Regime_Switcher_D1: IS=15 trades, OOS=5 trades, PF=0.03
+2025-10-25 02:10:32,967 | INFO | [NZD/JPY] OOS PASSED - Strategie attive: EMA_Pullback_H4
+2025-10-25 02:10:33,280 | INFO | [CAD/CHF] cache TwelveData…
+2025-10-25 02:10:34,759 | INFO | [CAD/CHF] Processing strategy: WEEKLY
+2025-10-25 02:10:34,830 | INFO | [CAD/CHF] WEEKLY: IS=12 trades, OOS=3 trades, PF=45.34
+2025-10-25 02:10:34,830 | INFO | [CAD/CHF] Processing strategy: BB_MR_D1
+2025-10-25 02:10:34,913 | INFO | [CAD/CHF] BB_MR_D1: IS=11 trades, OOS=3 trades, PF=0.02
+2025-10-25 02:10:34,913 | INFO | [CAD/CHF] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:34,986 | INFO | [CAD/CHF] EMA_Trend_D1: IS=18 trades, OOS=3 trades, PF=inf
+2025-10-25 02:10:34,986 | INFO | [CAD/CHF] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:35,090 | INFO | [CAD/CHF] Keltner_Trend_D1: IS=12 trades, OOS=6 trades, PF=0.45
+2025-10-25 02:10:35,090 | INFO | [CAD/CHF] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:35,160 | INFO | [CAD/CHF] VolTarget_Trend_D1: IS=19 trades, OOS=8 trades, PF=0.54
+2025-10-25 02:10:35,160 | INFO | [CAD/CHF] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:35,243 | INFO | [CAD/CHF] EMA_Pullback_H4: IS=32 trades, OOS=15 trades, PF=2.80
+2025-10-25 02:10:35,245 | INFO | [CAD/CHF] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:35,347 | INFO | [CAD/CHF] Keltner_MR_H4: IS=12 trades, OOS=4 trades, PF=0.46
+2025-10-25 02:10:35,347 | INFO | [CAD/CHF] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:35,413 | INFO | [CAD/CHF] Donchian_BO_D1: IS=25 trades, OOS=12 trades, PF=0.41
+2025-10-25 02:10:35,413 | INFO | [CAD/CHF] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:35,480 | INFO | [CAD/CHF] BB_Squeeze_BO_D1: IS=12 trades, OOS=7 trades, PF=2.73
+2025-10-25 02:10:35,480 | INFO | [CAD/CHF] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:35,496 | INFO | [CAD/CHF] Regime_Switcher_D1: IS=14 trades, OOS=4 trades, PF=4.80
+2025-10-25 02:10:35,496 | INFO | [CAD/CHF] OOS PASSED - Strategie attive: EMA_Pullback_H4, BB_Squeeze_BO_D1
+2025-10-25 02:10:35,839 | INFO | [NZD/USD] cache TwelveData…
+2025-10-25 02:10:37,313 | INFO | [NZD/USD] Processing strategy: WEEKLY
+2025-10-25 02:10:37,397 | INFO | [NZD/USD] WEEKLY: IS=15 trades, OOS=4 trades, PF=0.44
+2025-10-25 02:10:37,397 | INFO | [NZD/USD] Processing strategy: BB_MR_D1
+2025-10-25 02:10:37,478 | INFO | [NZD/USD] BB_MR_D1: IS=13 trades, OOS=6 trades, PF=7.83
+2025-10-25 02:10:37,478 | INFO | [NZD/USD] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:37,547 | INFO | [NZD/USD] EMA_Trend_D1: IS=27 trades, OOS=12 trades, PF=0.62
+2025-10-25 02:10:37,547 | INFO | [NZD/USD] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:37,632 | INFO | [NZD/USD] Keltner_Trend_D1: IS=9 trades, OOS=5 trades, PF=0.08
+2025-10-25 02:10:37,632 | INFO | [NZD/USD] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:37,750 | INFO | [NZD/USD] VolTarget_Trend_D1: IS=26 trades, OOS=14 trades, PF=0.45
+2025-10-25 02:10:37,750 | INFO | [NZD/USD] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:37,832 | INFO | [NZD/USD] EMA_Pullback_H4: IS=34 trades, OOS=17 trades, PF=1.06
+2025-10-25 02:10:37,832 | INFO | [NZD/USD] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:37,950 | INFO | [NZD/USD] Keltner_MR_H4: IS=7 trades, OOS=2 trades, PF=1.64
+2025-10-25 02:10:37,950 | INFO | [NZD/USD] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:38,019 | INFO | [NZD/USD] Donchian_BO_D1: IS=20 trades, OOS=12 trades, PF=0.42
+2025-10-25 02:10:38,019 | INFO | [NZD/USD] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:38,047 | INFO | [NZD/USD] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:38,047 | INFO | [NZD/USD] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:38,113 | INFO | [NZD/USD] Regime_Switcher_D1: IS=16 trades, OOS=4 trades, PF=0.00
+2025-10-25 02:10:38,113 | INFO | [NZD/USD] OOS PASSED - Strategie attive: BB_MR_D1, EMA_Pullback_H4
+2025-10-25 02:10:38,417 | INFO | [USD/SEK] cache TwelveData…
+2025-10-25 02:10:39,949 | INFO | [USD/SEK] Processing strategy: WEEKLY
+2025-10-25 02:10:40,032 | INFO | [USD/SEK] WEEKLY: IS=17 trades, OOS=4 trades, PF=1.06
+2025-10-25 02:10:40,032 | INFO | [USD/SEK] Processing strategy: BB_MR_D1
+2025-10-25 02:10:40,121 | INFO | [USD/SEK] BB_MR_D1: IS=18 trades, OOS=9 trades, PF=2.14
+2025-10-25 02:10:40,121 | INFO | [USD/SEK] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:40,203 | INFO | [USD/SEK] EMA_Trend_D1: IS=28 trades, OOS=9 trades, PF=16.35
+2025-10-25 02:10:40,205 | INFO | [USD/SEK] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:40,305 | INFO | [USD/SEK] Keltner_Trend_D1: IS=9 trades, OOS=5 trades, PF=1.11
+2025-10-25 02:10:40,305 | INFO | [USD/SEK] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:40,383 | INFO | [USD/SEK] VolTarget_Trend_D1: IS=25 trades, OOS=8 trades, PF=1.09
+2025-10-25 02:10:40,383 | INFO | [USD/SEK] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:40,486 | INFO | [USD/SEK] EMA_Pullback_H4: IS=33 trades, OOS=12 trades, PF=1.72
+2025-10-25 02:10:40,486 | INFO | [USD/SEK] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:40,580 | INFO | [USD/SEK] Keltner_MR_H4: IS=10 trades, OOS=3 trades, PF=0.85
+2025-10-25 02:10:40,580 | INFO | [USD/SEK] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:40,630 | INFO | [USD/SEK] Donchian_BO_D1: IS=23 trades, OOS=9 trades, PF=0.79
+2025-10-25 02:10:40,630 | INFO | [USD/SEK] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:40,667 | INFO | [USD/SEK] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:40,667 | INFO | [USD/SEK] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:40,732 | INFO | [USD/SEK] Regime_Switcher_D1: IS=18 trades, OOS=4 trades, PF=1.01
+2025-10-25 02:10:40,732 | INFO | [USD/SEK] OOS PASSED - Strategie attive: BB_MR_D1, EMA_Trend_D1, Keltner_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:41,047 | INFO | [EUR/NZD] cache TwelveData…
+2025-10-25 02:10:42,546 | INFO | [EUR/NZD] Processing strategy: WEEKLY
+2025-10-25 02:10:42,626 | INFO | [EUR/NZD] WEEKLY: IS=16 trades, OOS=7 trades, PF=3.50
+2025-10-25 02:10:42,626 | INFO | [EUR/NZD] Processing strategy: BB_MR_D1
+2025-10-25 02:10:42,713 | INFO | [EUR/NZD] BB_MR_D1: IS=16 trades, OOS=7 trades, PF=0.23
+2025-10-25 02:10:42,713 | INFO | [EUR/NZD] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:42,777 | INFO | [EUR/NZD] EMA_Trend_D1: IS=26 trades, OOS=11 trades, PF=3.98
+2025-10-25 02:10:42,777 | INFO | [EUR/NZD] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:42,808 | INFO | [EUR/NZD] Keltner_Trend_D1: IS=13 trades, OOS=6 trades, PF=1.14
+2025-10-25 02:10:42,808 | INFO | [EUR/NZD] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:42,933 | INFO | [EUR/NZD] VolTarget_Trend_D1: IS=12 trades, OOS=3 trades, PF=0.38
+2025-10-25 02:10:42,933 | INFO | [EUR/NZD] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:43,011 | INFO | [EUR/NZD] EMA_Pullback_H4: IS=37 trades, OOS=15 trades, PF=2.78
+2025-10-25 02:10:43,011 | INFO | [EUR/NZD] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:43,117 | INFO | [EUR/NZD] Keltner_MR_H4: IS=8 trades, OOS=8 trades, PF=1.33
+2025-10-25 02:10:43,117 | INFO | [EUR/NZD] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:43,209 | INFO | [EUR/NZD] Donchian_BO_D1: IS=22 trades, OOS=13 trades, PF=1.12
+2025-10-25 02:10:43,209 | INFO | [EUR/NZD] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:43,263 | INFO | [EUR/NZD] BB_Squeeze_BO_D1: IS=14 trades, OOS=11 trades, PF=0.55
+2025-10-25 02:10:43,263 | INFO | [EUR/NZD] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:43,282 | INFO | [EUR/NZD] Regime_Switcher_D1: IS=17 trades, OOS=5 trades, PF=5.23
+2025-10-25 02:10:43,282 | INFO | [EUR/NZD] OOS PASSED - Strategie attive: WEEKLY, EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, Keltner_MR_H4, Donchian_BO_D1, Regime_Switcher_D1
+2025-10-25 02:10:43,630 | INFO | [AUD/CHF] cache TwelveData…
+2025-10-25 02:10:45,322 | INFO | [AUD/CHF] Processing strategy: WEEKLY
+2025-10-25 02:10:45,328 | INFO | [AUD/CHF] WEEKLY: IS=15 trades, OOS=4 trades, PF=2.69
+2025-10-25 02:10:45,328 | INFO | [AUD/CHF] Processing strategy: BB_MR_D1
+2025-10-25 02:10:45,474 | INFO | [AUD/CHF] BB_MR_D1: IS=10 trades, OOS=3 trades, PF=0.52
+2025-10-25 02:10:45,474 | INFO | [AUD/CHF] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:45,484 | INFO | [AUD/CHF] EMA_Trend_D1: IS=25 trades, OOS=10 trades, PF=3.23
+2025-10-25 02:10:45,484 | INFO | [AUD/CHF] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:45,620 | INFO | [AUD/CHF] Keltner_Trend_D1: IS=10 trades, OOS=3 trades, PF=1.87
+2025-10-25 02:10:45,620 | INFO | [AUD/CHF] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:45,620 | INFO | [AUD/CHF] VolTarget_Trend_D1: IS=26 trades, OOS=11 trades, PF=0.78
+2025-10-25 02:10:45,620 | INFO | [AUD/CHF] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:45,790 | INFO | [AUD/CHF] EMA_Pullback_H4: IS=34 trades, OOS=13 trades, PF=1.04
+2025-10-25 02:10:45,790 | INFO | [AUD/CHF] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:45,878 | INFO | [AUD/CHF] Keltner_MR_H4: IS=12 trades, OOS=4 trades, PF=0.00
+2025-10-25 02:10:45,878 | INFO | [AUD/CHF] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:45,952 | INFO | [AUD/CHF] Donchian_BO_D1: IS=25 trades, OOS=14 trades, PF=0.95
+2025-10-25 02:10:45,952 | INFO | [AUD/CHF] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:45,990 | INFO | [AUD/CHF] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:45,990 | INFO | [AUD/CHF] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:46,044 | INFO | [AUD/CHF] Regime_Switcher_D1: IS=15 trades, OOS=4 trades, PF=2.69
+2025-10-25 02:10:46,044 | INFO | [AUD/CHF] OOS PASSED - Strategie attive: EMA_Trend_D1
+2025-10-25 02:10:46,353 | INFO | [USD/NOK] cache TwelveData…
+2025-10-25 02:10:47,819 | INFO | [USD/NOK] Processing strategy: WEEKLY
+2025-10-25 02:10:47,902 | INFO | [USD/NOK] WEEKLY: IS=15 trades, OOS=4 trades, PF=1.18
+2025-10-25 02:10:47,902 | INFO | [USD/NOK] Processing strategy: BB_MR_D1
+2025-10-25 02:10:47,980 | INFO | [USD/NOK] BB_MR_D1: IS=17 trades, OOS=9 trades, PF=2.01
+2025-10-25 02:10:47,980 | INFO | [USD/NOK] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:48,047 | INFO | [USD/NOK] EMA_Trend_D1: IS=20 trades, OOS=5 trades, PF=0.68
+2025-10-25 02:10:48,047 | INFO | [USD/NOK] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:48,147 | INFO | [USD/NOK] Keltner_Trend_D1: IS=11 trades, OOS=6 trades, PF=0.57
+2025-10-25 02:10:48,147 | INFO | [USD/NOK] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:48,253 | INFO | [USD/NOK] VolTarget_Trend_D1: IS=24 trades, OOS=11 trades, PF=4.43
+2025-10-25 02:10:48,253 | INFO | [USD/NOK] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:48,330 | INFO | [USD/NOK] EMA_Pullback_H4: IS=32 trades, OOS=14 trades, PF=2.88
+2025-10-25 02:10:48,330 | INFO | [USD/NOK] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:48,338 | INFO | [USD/NOK] Keltner_MR_H4: IS=9 trades, OOS=5 trades, PF=0.99
+2025-10-25 02:10:48,338 | INFO | [USD/NOK] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:48,488 | INFO | [USD/NOK] Donchian_BO_D1: IS=25 trades, OOS=11 trades, PF=0.71
+2025-10-25 02:10:48,488 | INFO | [USD/NOK] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:48,522 | INFO | [USD/NOK] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:48,522 | INFO | [USD/NOK] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:48,577 | INFO | [USD/NOK] Regime_Switcher_D1: IS=14 trades, OOS=4 trades, PF=1.20
+2025-10-25 02:10:48,577 | INFO | [USD/NOK] OOS PASSED - Strategie attive: BB_MR_D1, VolTarget_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:48,901 | INFO | [GOLD] cache TwelveData…
+2025-10-25 02:10:50,424 | INFO | [GOLD] Processing strategy: WEEKLY
+2025-10-25 02:10:50,480 | INFO | [GOLD] WEEKLY: IS=12 trades, OOS=4 trades, PF=3.61
+2025-10-25 02:10:50,480 | INFO | [GOLD] Processing strategy: BB_MR_D1
+2025-10-25 02:10:50,580 | INFO | [GOLD] BB_MR_D1: IS=18 trades, OOS=14 trades, PF=0.31
+2025-10-25 02:10:50,580 | INFO | [GOLD] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:50,634 | INFO | [GOLD] EMA_Trend_D1: IS=21 trades, OOS=7 trades, PF=10.11
+2025-10-25 02:10:50,634 | INFO | [GOLD] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:50,751 | INFO | [GOLD] Keltner_Trend_D1: IS=11 trades, OOS=11 trades, PF=2.61
+2025-10-25 02:10:50,751 | INFO | [GOLD] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:50,851 | INFO | [GOLD] VolTarget_Trend_D1: IS=15 trades, OOS=10 trades, PF=4.10
+2025-10-25 02:10:50,851 | INFO | [GOLD] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:50,927 | INFO | [GOLD] EMA_Pullback_H4: IS=27 trades, OOS=11 trades, PF=4.07
+2025-10-25 02:10:50,927 | INFO | [GOLD] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:50,980 | INFO | [GOLD] Keltner_MR_H4: IS=14 trades, OOS=16 trades, PF=0.29
+2025-10-25 02:10:50,980 | INFO | [GOLD] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:50,980 | INFO | [GOLD] Donchian_BO_D1: IS=22 trades, OOS=16 trades, PF=2.17
+2025-10-25 02:10:50,980 | INFO | [GOLD] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:51,124 | INFO | [GOLD] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:51,124 | INFO | [GOLD] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:51,154 | INFO | [GOLD] Regime_Switcher_D1: IS=12 trades, OOS=4 trades, PF=14.55
+2025-10-25 02:10:51,154 | INFO | [GOLD] OOS PASSED - Strategie attive: EMA_Trend_D1, Keltner_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1
+2025-10-25 02:10:51,505 | INFO | [SILVER] cache TwelveData…
+2025-10-25 02:10:53,017 | INFO | [SILVER] Processing strategy: WEEKLY
+2025-10-25 02:10:53,125 | INFO | [SILVER] WEEKLY: IS=12 trades, OOS=3 trades, PF=inf
+2025-10-25 02:10:53,125 | INFO | [SILVER] Processing strategy: BB_MR_D1
+2025-10-25 02:10:53,235 | INFO | [SILVER] BB_MR_D1: IS=9 trades, OOS=7 trades, PF=0.42
+2025-10-25 02:10:53,235 | INFO | [SILVER] Processing strategy: EMA_Trend_D1
+2025-10-25 02:10:53,296 | INFO | [SILVER] EMA_Trend_D1: IS=21 trades, OOS=6 trades, PF=10.00
+2025-10-25 02:10:53,296 | INFO | [SILVER] Processing strategy: Keltner_Trend_D1
+2025-10-25 02:10:53,367 | INFO | [SILVER] Keltner_Trend_D1: IS=11 trades, OOS=10 trades, PF=1.62
+2025-10-25 02:10:53,367 | INFO | [SILVER] Processing strategy: VolTarget_Trend_D1
+2025-10-25 02:10:53,440 | INFO | [SILVER] VolTarget_Trend_D1: No valid parameters found in IS
+2025-10-25 02:10:53,440 | INFO | [SILVER] Processing strategy: EMA_Pullback_H4
+2025-10-25 02:10:53,503 | INFO | [SILVER] EMA_Pullback_H4: IS=30 trades, OOS=14 trades, PF=2.40
+2025-10-25 02:10:53,503 | INFO | [SILVER] Processing strategy: Keltner_MR_H4
+2025-10-25 02:10:53,614 | INFO | [SILVER] Keltner_MR_H4: IS=14 trades, OOS=11 trades, PF=0.51
+2025-10-25 02:10:53,614 | INFO | [SILVER] Processing strategy: Donchian_BO_D1
+2025-10-25 02:10:53,684 | INFO | [SILVER] Donchian_BO_D1: IS=22 trades, OOS=13 trades, PF=1.43
+2025-10-25 02:10:53,684 | INFO | [SILVER] Processing strategy: BB_Squeeze_BO_D1
+2025-10-25 02:10:53,697 | INFO | [SILVER] BB_Squeeze_BO_D1: No valid parameters found in IS
+2025-10-25 02:10:53,697 | INFO | [SILVER] Processing strategy: Regime_Switcher_D1
+2025-10-25 02:10:53,772 | INFO | [SILVER] Regime_Switcher_D1: IS=19 trades, OOS=4 trades, PF=inf
+2025-10-25 02:10:53,772 | INFO | [SILVER] OOS PASSED - Strategie attive: EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1
+2025-10-25 02:10:54,173 | INFO | [CHF/JPY] WEEKLY: parametri aggiornati
+2025-10-25 02:10:54,173 | INFO | [CHF/JPY] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,173 | INFO | [CHF/JPY] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [CHF/JPY] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [CHF/JPY] Donchian_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [CHF/JPY] BB_Squeeze_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [CHF/JPY] ACTIVE con strategie: WEEKLY, EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1, BB_Squeeze_BO_D1
+2025-10-25 02:10:54,175 | INFO | [EUR/AUD] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [EUR/AUD] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [EUR/AUD] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [EUR/AUD] ACTIVE con strategie: EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:54,175 | INFO | [GBP/NZD] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/NZD] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/NZD] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/NZD] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/NZD] BB_Squeeze_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/NZD] ACTIVE con strategie: BB_MR_D1, EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, BB_Squeeze_BO_D1
+2025-10-25 02:10:54,175 | INFO | [CAD/JPY] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [CAD/JPY] ACTIVE con strategie: BB_MR_D1
+2025-10-25 02:10:54,175 | INFO | [GBP/JPY] WEEKLY: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/JPY] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/JPY] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [GBP/JPY] ACTIVE con strategie: WEEKLY, EMA_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:54,175 | INFO | [AUD/JPY] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [AUD/JPY] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [AUD/JPY] VolTarget_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,175 | INFO | [AUD/JPY] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [AUD/JPY] Keltner_MR_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [AUD/JPY] ACTIVE con strategie: BB_MR_D1, EMA_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4, Keltner_MR_H4
+2025-10-25 02:10:54,177 | INFO | [USD/JPY] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [USD/JPY] VolTarget_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [USD/JPY] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [USD/JPY] Donchian_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [USD/JPY] ACTIVE con strategie: Keltner_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1
+2025-10-25 02:10:54,177 | INFO | [EUR/JPY] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [EUR/JPY] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [EUR/JPY] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [EUR/JPY] Donchian_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [EUR/JPY] BB_Squeeze_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [EUR/JPY] ACTIVE con strategie: BB_MR_D1, EMA_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1, BB_Squeeze_BO_D1
+2025-10-25 02:10:54,177 | INFO | [AUD/CAD] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [AUD/CAD] BB_Squeeze_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [AUD/CAD] ACTIVE con strategie: BB_MR_D1, BB_Squeeze_BO_D1
+2025-10-25 02:10:54,177 | INFO | [NZD/JPY] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [NZD/JPY] ACTIVE con strategie: EMA_Pullback_H4
+2025-10-25 02:10:54,177 | INFO | [CAD/CHF] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [CAD/CHF] BB_Squeeze_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [CAD/CHF] ACTIVE con strategie: EMA_Pullback_H4, BB_Squeeze_BO_D1
+2025-10-25 02:10:54,177 | INFO | [NZD/USD] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [NZD/USD] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,177 | INFO | [NZD/USD] ACTIVE con strategie: BB_MR_D1, EMA_Pullback_H4
+2025-10-25 02:10:54,177 | INFO | [USD/SEK] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [USD/SEK] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [USD/SEK] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [USD/SEK] VolTarget_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [USD/SEK] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [USD/SEK] ACTIVE con strategie: BB_MR_D1, EMA_Trend_D1, Keltner_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:54,179 | INFO | [EUR/NZD] WEEKLY: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [EUR/NZD] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [EUR/NZD] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [EUR/NZD] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [EUR/NZD] Keltner_MR_H4: parametri aggiornati
+2025-10-25 02:10:54,179 | INFO | [EUR/NZD] Donchian_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [EUR/NZD] Regime_Switcher_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [EUR/NZD] ACTIVE con strategie: WEEKLY, EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, Keltner_MR_H4, Donchian_BO_D1, Regime_Switcher_D1
+2025-10-25 02:10:54,180 | INFO | [AUD/CHF] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [AUD/CHF] ACTIVE con strategie: EMA_Trend_D1
+2025-10-25 02:10:54,180 | INFO | [USD/NOK] BB_MR_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [USD/NOK] VolTarget_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [USD/NOK] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [USD/NOK] ACTIVE con strategie: BB_MR_D1, VolTarget_Trend_D1, EMA_Pullback_H4
+2025-10-25 02:10:54,180 | INFO | [GOLD] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [GOLD] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [GOLD] VolTarget_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [GOLD] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [GOLD] Donchian_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [GOLD] ACTIVE con strategie: EMA_Trend_D1, Keltner_Trend_D1, VolTarget_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1
+2025-10-25 02:10:54,180 | INFO | [SILVER] EMA_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [SILVER] Keltner_Trend_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [SILVER] EMA_Pullback_H4: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [SILVER] Donchian_BO_D1: parametri aggiornati
+2025-10-25 02:10:54,180 | INFO | [SILVER] ACTIVE con strategie: EMA_Trend_D1, Keltner_Trend_D1, EMA_Pullback_H4, Donchian_BO_D1
+2025-10-25 02:10:54,180 | INFO | [WRITE] params/current.json aggiornato.
+2025-10-25 02:10:54,213 | INFO | [DUMP] retrain metrics -> C:\AUTOMAZIONE\params\retrain_metrics.json ; summary -> C:\AUTOMAZIONE\logs\last_retrain.txt
+2025-10-25 02:10:55,073 | INFO | Retrain MULTI-STRATEGIA completato. Assets processati: 18, passed: 18, failed: 0
+2025-10-25 02:10:55,075 | INFO | Strategie supportate: ['WEEKLY', 'BB_MR_D1', 'EMA_Trend_D1', 'Keltner_Trend_D1', 'VolTarget_Trend_D1', 'EMA_Pullback_H4', 'Keltner_MR_H4', 'Donchian_BO_D1', 'BB_Squeeze_BO_D1', 'Regime_Switcher_D1']

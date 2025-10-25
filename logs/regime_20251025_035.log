@@ -1,0 +1,107 @@
+--- Avvio Filtro di Regime ODIN v2.2.1 ---
+--- Avvio Preflight Check ---
+  ✅ AUD/CAD [AUD/CAD]
+  ✅ CHF/JPY [CHF/JPY]
+  ✅ EUR/AUD [EUR/AUD]
+  ✅ GBP/NZD [GBP/NZD]
+  ✅ CAD/JPY [CAD/JPY]
+  ✅ GBP/JPY [GBP/JPY]
+  ✅ AUD/JPY [AUD/JPY]
+  ✅ USD/JPY [USD/JPY]
+  ✅ EUR/JPY [EUR/JPY]
+  ✅ NZD/JPY [NZD/JPY]
+  ✅ CAD/CHF [CAD/CHF]
+  ✅ NZD/USD [NZD/USD]
+  ✅ NZD/CAD [NZD/CAD]
+  ✅ USD/SEK [USD/SEK]
+  ✅ EUR/NZD [EUR/NZD]
+  ✅ AUD/CHF [AUD/CHF]
+--- Preflight completato ---
+
+Analizzo: AUD/CAD  (TD: AUD/CAD, tipo: forex)
+WARNING:cache_ohlc:[CACHE] AUD/CAD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: AUD/CAD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato AUD/CAD 1day (2000 barre)
+--> ADX=18.27 | BBW=2.161 | ATR%=0.59 | R2=0.41 -> LATERALE
+Analizzo: CHF/JPY  (TD: CHF/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] CHF/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CHF/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CHF/JPY 1day (2000 barre)
+--> ADX=39.57 | BBW=3.713 | ATR%=0.46 | R2=0.86 -> TRENDING
+Analizzo: EUR/AUD  (TD: EUR/AUD, tipo: forex)
+WARNING:cache_ohlc:[CACHE] EUR/AUD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/AUD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/AUD 1day (2000 barre)
+--> ADX=12.74 | BBW=2.347 | ATR%=0.59 | R2=0.06 -> LATERALE
+Analizzo: GBP/NZD  (TD: GBP/NZD, tipo: forex)
+WARNING:cache_ohlc:[CACHE] GBP/NZD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/NZD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/NZD 1day (2000 barre)
+--> ADX=27.95 | BBW=2.114 | ATR%=0.54 | R2=0.53 -> TRENDING
+Analizzo: CAD/JPY  (TD: CAD/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] CAD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/JPY 1day (2000 barre)
+--> ADX=15.50 | BBW=3.976 | ATR%=0.66 | R2=0.33 -> LATERALE
+Analizzo: GBP/JPY  (TD: GBP/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] GBP/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: GBP/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato GBP/JPY 1day (2000 barre)
+--> ADX=23.23 | BBW=2.865 | ATR%=0.56 | R2=0.60 -> INDEFINITO
+Analizzo: AUD/JPY  (TD: AUD/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] AUD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: AUD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato AUD/JPY 1day (2000 barre)
+--> ADX=16.66 | BBW=3.981 | ATR%=0.80 | R2=0.69 -> LATERALE
+Analizzo: USD/JPY  (TD: USD/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] USD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/JPY 1day (2000 barre)
+--> ADX=19.67 | BBW=4.233 | ATR%=0.67 | R2=0.60 -> LATERALE
+Analizzo: EUR/JPY  (TD: EUR/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] EUR/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/JPY 1day (2000 barre)
+--> ADX=27.78 | BBW=2.837 | ATR%=0.49 | R2=0.79 -> TRENDING
+Analizzo: NZD/JPY  (TD: NZD/JPY, tipo: forex)
+WARNING:cache_ohlc:[CACHE] NZD/JPY 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/JPY 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/JPY 1day (2000 barre)
+--> ADX=16.16 | BBW=3.530 | ATR%=0.71 | R2=0.01 -> LATERALE
+Analizzo: CAD/CHF  (TD: CAD/CHF, tipo: forex)
+WARNING:cache_ohlc:[CACHE] CAD/CHF 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: CAD/CHF 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato CAD/CHF 1day (2000 barre)
+--> ADX=20.66 | BBW=2.187 | ATR%=0.62 | R2=0.82 -> INDEFINITO
+Analizzo: NZD/USD  (TD: NZD/USD, tipo: forex)
+WARNING:cache_ohlc:[CACHE] NZD/USD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/USD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/USD 1day (2000 barre)
+--> ADX=18.66 | BBW=2.997 | ATR%=0.64 | R2=0.53 -> LATERALE
+Analizzo: NZD/CAD  (TD: NZD/CAD, tipo: forex)
+WARNING:cache_ohlc:[CACHE] NZD/CAD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: NZD/CAD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato NZD/CAD 1day (2000 barre)
+--> ADX=14.98 | BBW=1.959 | ATR%=0.53 | R2=0.25 -> LATERALE
+Analizzo: USD/SEK  (TD: USD/SEK, tipo: forex)
+WARNING:cache_ohlc:[CACHE] USD/SEK 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: USD/SEK 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato USD/SEK 1day (2000 barre)
+--> ADX=19.32 | BBW=2.418 | ATR%=0.69 | R2=0.10 -> LATERALE (Compressione)
+Analizzo: EUR/NZD  (TD: EUR/NZD, tipo: forex)
+WARNING:cache_ohlc:[CACHE] EUR/NZD 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: EUR/NZD 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato EUR/NZD 1day (2000 barre)
+--> ADX=20.88 | BBW=1.999 | ATR%=0.53 | R2=0.63 -> INDEFINITO
+Analizzo: AUD/CHF  (TD: AUD/CHF, tipo: forex)
+WARNING:cache_ohlc:[CACHE] AUD/CHF 1day: cache invalida (ValueError('Cache scaduta')). Refetch.
+INFO:cache_ohlc:[CACHE] MISS: AUD/CHF 1day. Fetching da TwelveData...
+INFO:cache_ohlc:[CACHE] Salvato AUD/CHF 1day (2000 barre)
+--> ADX=20.44 | BBW=3.589 | ATR%=0.82 | R2=0.09 -> INDEFINITO
+
+========================================================================
+--- REPORT DI REGIME COMPLETATO (v2.2.1) ---
+[Summary Regimi] {'LATERALE': 8, 'INDEFINITO': 4, 'TRENDING': 3, 'LATERALE (Compressione)': 1, 'VOLATILE': 0, 'ERRORE_DATI': 0}
+Salvato: odin_regime_report_d1.csv | odin_regime_report_d1.json (items: 16)
+Hash del report (SHA1): 77191d7d7055d785cabf7b665567f3b068bfbe48
+========================================================================

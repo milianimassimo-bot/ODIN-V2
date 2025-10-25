@@ -1,0 +1,3693 @@
+{
+  "CHF/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.5116921433587769,
+        "exp": 0.2200543588577301,
+        "maxdd": 2.374422677582144
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 7.0,
+        "exp": 1.0,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 4.15151638207841,
+        "exp": 0.6047779496818507,
+        "maxdd": 1.1109068270535296
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 0.43034020728145805,
+        "exp": -0.37977319514569463,
+        "maxdd": 4.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 100,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 1.1678087146433758,
+        "exp": 0.06144395718695727,
+        "maxdd": 4.341648240897015
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 1.699614711439499,
+        "exp": 0.29848045369749676,
+        "maxdd": 2.692990208734903
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "sl_atr_mult": 3.0,
+        "rr": 1.6,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 2.521665584027047,
+        "exp": 0.3500184617813039,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 1.5262233214217464,
+        "exp": 0.13172657841140725,
+        "maxdd": 1.0
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.2,
+        "ema_period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.4711971489132176,
+        "exp": 0.13457943531282682,
+        "maxdd": 1.8850462108147394
+      },
+      "OOS": {
+        "trades": 1,
+        "pf": Infinity,
+        "exp": 0.18982296016217443,
+        "maxdd": 0.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 25,
+        "ema_slow": 60,
+        "pullback_pct": 0.7,
+        "sl_atr_mult": 1.2,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 31,
+        "pf": 1.7006861709299426,
+        "exp": 0.31876687753856914,
+        "maxdd": 3.8757611010321735
+      },
+      "OOS": {
+        "trades": 13,
+        "pf": 3.155600007980618,
+        "exp": 0.6632615409171133,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.0207331394158838,
+        "exp": 0.009987461480957483,
+        "maxdd": 4.1990243366464295
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 0.5941426981259174,
+        "exp": -0.304392976405562,
+        "maxdd": 6.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 1.8,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 1.5464542678274047,
+        "exp": 0.22530904723376857,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 1.5214670743050878,
+        "exp": 0.2485765576852987,
+        "maxdd": 3.0
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 1.8,
+        "squeeze_threshold": 0.015,
+        "sl_atr_mult": 2.2,
+        "rr": 2.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.0022844940835436,
+        "exp": 0.001414767953789141,
+        "maxdd": 2.9010092800107237
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 6.640356960941057,
+        "exp": 1.1951163699304526,
+        "maxdd": 0.9537968730758624
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.7,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 1.4111596349399433,
+        "exp": 0.16875072992689696,
+        "maxdd": 2.4106007815670862
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 5.205039857525639,
+        "exp": 1.0512599643814098,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "EUR/AUD": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 0.5332259129248342,
+        "exp": -0.21350688680564084,
+        "maxdd": 3.820368115226351
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.545190115736466,
+        "exp": 0.14532377591763226,
+        "maxdd": 1.0662245827499839
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.8657701825603294,
+        "exp": 0.2741622806023631,
+        "maxdd": 2.450929523226267
+      },
+      "OOS": {
+        "trades": 9,
+        "pf": 0.7263783107750567,
+        "exp": -0.1366158928625262,
+        "maxdd": 4.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 0.6066552636831641,
+        "exp": -0.21381339064382282,
+        "maxdd": 4.712649612404903
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 1.1997071841165454,
+        "exp": 0.10701210386078344,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 0.9608780689057227,
+        "exp": -0.016720487553630554,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 2.007170975928798,
+        "exp": 0.40286839037151917,
+        "maxdd": 2.0
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.0,
+        "ema_period": 21,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 0.8313257454466434,
+        "exp": -0.07398650645045765,
+        "maxdd": 3.6783368783343082
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.6895924211737098,
+        "exp": -0.10346919294209674,
+        "maxdd": 1.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 33,
+        "pf": 1.0745443288567498,
+        "exp": 0.03356358217565575,
+        "maxdd": 4.716117661671932
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 2.3437358147786638,
+        "exp": 0.4637951722510233,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "rsi_period": 18,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "sl_atr_mult": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 7,
+        "pf": 1.710509231077892,
+        "exp": 0.27014558236508396,
+        "maxdd": 2.522439030307212
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 0.7554075456270064,
+        "exp": -0.1630616362486624,
+        "maxdd": 4.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 23,
+        "pf": 0.9882013148293746,
+        "exp": -0.004300300844943766,
+        "maxdd": 4.190261315126734
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 0.9625310264233746,
+        "exp": -0.021410842043785912,
+        "maxdd": 6.0
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 25,
+        "bb_std": 2.2,
+        "squeeze_threshold": 0.025,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 2.3076120388390513,
+        "exp": 0.533418225781143,
+        "maxdd": 3.118996421768177
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 1.012465932374439,
+        "exp": 0.007339160889491103,
+        "maxdd": 4.8873742204312345
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.44611387927620166,
+        "exp": -0.2693738174981382,
+        "maxdd": 4.040607262472074
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.0,
+        "exp": -0.37871486912571367,
+        "maxdd": 1.5148594765028547
+      }
+    }
+  },
+  "GBP/NZD": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.1616926621272379,
+        "exp": 0.05898758405775537,
+        "maxdd": 2.3841446910935993
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 0.49295284094112074,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 1.3316891735446255,
+        "exp": 0.153021036443819,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 1.1981680413963671,
+        "exp": 0.0990840206981836,
+        "maxdd": 2.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 1.3584921514818014,
+        "exp": 0.1666554466966165,
+        "maxdd": 2.6718939026373913
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 2.119645086119227,
+        "exp": 0.44785803444769084,
+        "maxdd": 1.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 1.0339734076876714,
+        "exp": 0.013294865638745941,
+        "maxdd": 1.3367956254793025
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 1.1653630998402078,
+        "exp": 0.07576080470118178,
+        "maxdd": 1.4719995953165268
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.0,
+        "ema_period": 21,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 1.6853511665563714,
+        "exp": 0.19827521846070734,
+        "maxdd": 1.279605204976396
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 0.0,
+        "exp": -0.545534083233509,
+        "maxdd": 1.091068166467018
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 15,
+        "ema_slow": 40,
+        "pullback_pct": 0.3,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 31,
+        "pf": 1.6219779150775313,
+        "exp": 0.21436368121444466,
+        "maxdd": 2.6413297138064604
+      },
+      "OOS": {
+        "trades": 16,
+        "pf": 1.2787940803490996,
+        "exp": 0.11330735405087446,
+        "maxdd": 5.252321556673866
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "rsi_period": 18,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "sl_atr_mult": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 3.27544324870449,
+        "exp": 0.5688608121761225,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 0.9632668475591561,
+        "exp": -0.01836657622042194,
+        "maxdd": 1.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 24,
+        "pf": 1.4493948246173731,
+        "exp": 0.2059726279496293,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 0.5206434239296631,
+        "exp": -0.26642177419961605,
+        "maxdd": 5.946137726241439
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.0,
+        "squeeze_threshold": 0.02,
+        "sl_atr_mult": 2.0,
+        "rr": 2.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 2.0016762791210128,
+        "exp": 0.384906978251315,
+        "maxdd": 3.19602494687894
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 2.0809369636468023,
+        "exp": 0.30677470328292905,
+        "maxdd": 1.2167270358393116
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.4454317347858558,
+        "exp": 0.16284602056590186,
+        "maxdd": 1.805818392623612
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 0.19200982038614078,
+        "maxdd": 0.0
+      }
+    }
+  },
+  "CAD/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.6078245215787326,
+        "exp": 0.19541947698372653,
+        "maxdd": 1.7161769871925752
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.8027721762353854,
+        "exp": -0.08362518389027672,
+        "maxdd": 1.6960118971871
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 1.1031992930150942,
+        "exp": 0.043536973990657424,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 4.459088136582372,
+        "exp": 0.6918176273164742,
+        "maxdd": 1.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 1.2563452551032652,
+        "exp": 0.1098479042830998,
+        "maxdd": 4.526357345635835
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 0.7143062322563867,
+        "exp": -0.16325358156777908,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "sl_atr_mult": 3.0,
+        "rr": 1.6,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.0602274308367003,
+        "exp": 0.024090972334680154,
+        "maxdd": 2.3517495203481644
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.027801112398130046,
+        "exp": -0.6207116963160421,
+        "maxdd": 1.862135088948126
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 21,
+        "pf": 1.5014437798353135,
+        "exp": 0.22052021577843875,
+        "maxdd": 3.283666153605645
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 0.5735323135968163,
+        "exp": -0.23415760908950803,
+        "maxdd": 3.9498232400324382
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 15,
+        "ema_slow": 40,
+        "pullback_pct": 0.3,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 32,
+        "pf": 1.5457180455162192,
+        "exp": 0.20347791364742068,
+        "maxdd": 3.022725786039789
+      },
+      "OOS": {
+        "trades": 16,
+        "pf": 0.6830275421170964,
+        "exp": -0.17002540061597124,
+        "maxdd": 3.809584986467234
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.029822485041363,
+        "exp": 0.018977945026321844,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 1,
+        "pf": Infinity,
+        "exp": 1.9628318095212491,
+        "maxdd": 0.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 1.3248826622100176,
+        "exp": 0.10532301845210794,
+        "maxdd": 3.5906513440024814
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 0.2944062403852249,
+        "exp": -0.3269875735106324,
+        "maxdd": 4.597949805709536
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 1.7665025578929932,
+        "exp": 0.23374756951305659,
+        "maxdd": 2.0322855414011203
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.7803928241189274,
+        "exp": -0.1051133172795334,
+        "maxdd": 1.9145698105321858
+      }
+    }
+  },
+  "GBP/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 2.087602834266577,
+        "exp": 0.38956569483195463,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 3.766615259122162,
+        "exp": 0.5560606029011108,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 2.090997936333457,
+        "exp": 0.4363991745333829,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 1,
+        "pf": Infinity,
+        "exp": 1.658149642470224,
+        "maxdd": 0.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 1.8750313530626206,
+        "exp": 0.39096705784018365,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 1.119946165535127,
+        "exp": 0.07196769932107623,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.3770309250168016,
+        "exp": 0.13963863845253055,
+        "maxdd": 3.2565061733317244
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.01723299302979234,
+        "exp": -0.6578314003206539,
+        "maxdd": 3.34683295051131
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 23,
+        "pf": 2.240949909185124,
+        "exp": 0.4134628101972357,
+        "maxdd": 2.1051058336152475
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 0.27233340892043795,
+        "exp": -0.5093666137556935,
+        "maxdd": 5.605613893165462
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 28,
+        "pf": 1.906014758049138,
+        "exp": 0.3569488036013076,
+        "maxdd": 3.392338428617439
+      },
+      "OOS": {
+        "trades": 17,
+        "pf": 1.5449255256120444,
+        "exp": 0.23204364131531516,
+        "maxdd": 3.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "rsi_period": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "sl_atr_mult": 1.5,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.3464461757420307,
+        "exp": 0.1422491063009572,
+        "maxdd": 2.0127208039982603
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": Infinity,
+        "exp": 1.6110058970070833,
+        "maxdd": 0.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 27,
+        "pf": 1.8327624971672714,
+        "exp": 0.2385195909503253,
+        "maxdd": 2.183164647886201
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 0.43727049660606465,
+        "exp": -0.2391733830886109,
+        "maxdd": 2.8700805970633305
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.7,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 1.938722331552198,
+        "exp": 0.4177202591098828,
+        "maxdd": 3.415387821498589
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 4.798052793924594,
+        "exp": 0.9495131984811486,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "AUD/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 10.981988119682457,
+        "exp": 0.5260130251715016,
+        "maxdd": 0.298486315652287
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.2823539454817636,
+        "exp": 0.0705884863704409,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.2125132658375752,
+        "exp": 0.0921085372703571,
+        "maxdd": 3.2010985897185016
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 2.896429752310446,
+        "exp": 0.38358578891800976,
+        "maxdd": 1.0226733336717693
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 22,
+        "pf": 1.2144082226569062,
+        "exp": 0.10005615009675047,
+        "maxdd": 5.5
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 1.0931150073467784,
+        "exp": 0.04655750367338915,
+        "maxdd": 1.7206549779596652
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.3400001462139601,
+        "exp": 0.14799993322927135,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 0.28464475972712816,
+        "exp": -0.4536295085691019,
+        "maxdd": 3.4389226236358543
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.2,
+        "ema_period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 0.9056943388399514,
+        "exp": -0.030064222870514808,
+        "maxdd": 3.2851532547264646
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 1.2095746573146375,
+        "exp": 0.07059930126491948,
+        "maxdd": 1.21247175450985
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 15,
+        "ema_slow": 40,
+        "pullback_pct": 0.3,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 31,
+        "pf": 1.660235426795441,
+        "exp": 0.23674006266390688,
+        "maxdd": 3.2167001338226084
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 3.8897425969739983,
+        "exp": 0.6986612978906626,
+        "maxdd": 2.1954832813717164
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.6101723126395333,
+        "exp": 0.2900244485244412,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 4.610364901091991,
+        "exp": 0.601727483515332,
+        "maxdd": 1.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 23,
+        "pf": 1.6062736873885162,
+        "exp": 0.2545325587219947,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 0.46370295897006636,
+        "exp": -0.2176185610400866,
+        "maxdd": 2.3938041714409524
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 3.259135705389218,
+        "exp": 0.40460811653707207,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 3.107397094176684,
+        "exp": 0.5486158648626758,
+        "maxdd": 1.0413146461645066
+      }
+    }
+  },
+  "USD/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 1.6638146227069397,
+        "exp": 0.26722665555349323,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.0,
+        "exp": -0.859134502052636,
+        "maxdd": 4.295672510263181
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 1.1885636063002063,
+        "exp": 0.06470902051658625,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.5855450653271088,
+        "exp": -0.1634946451552709,
+        "maxdd": 1.5779244639401786
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 21,
+        "pf": 1.2476087994318457,
+        "exp": 0.1352925711306177,
+        "maxdd": 6.474325630842522
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.0,
+        "exp": -0.8014064518130848,
+        "maxdd": 4.007032259065424
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 1.1412790946622278,
+        "exp": 0.07046721954677455,
+        "maxdd": 4.781053956469438
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 1.1009904925584488,
+        "exp": 0.03868916607691677,
+        "maxdd": 1.2985826742765019
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.0,
+        "ema_period": 21,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 19,
+        "pf": 1.8117550974968604,
+        "exp": 0.3238388623844935,
+        "maxdd": 2.661999699963176
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 1.2800648520125235,
+        "exp": 0.11201784150134526,
+        "maxdd": 4.668593897022347
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 30,
+        "pf": 1.6223318953171688,
+        "exp": 0.3031999045494835,
+        "maxdd": 4.959584012514077
+      },
+      "OOS": {
+        "trades": 15,
+        "pf": 1.946030993538705,
+        "exp": 0.3658451239178527,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 2.9338929511332457,
+        "exp": 0.6474159583681287,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.0,
+        "exp": -0.6906772606635707,
+        "maxdd": 2.072031781990712
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 2.50651511333262,
+        "exp": 0.32701563601036127,
+        "maxdd": 1.1233103236427486
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 1.2685394231030465,
+        "exp": 0.07718323628381808,
+        "maxdd": 1.0
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.7,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 1.423850487932768,
+        "exp": 0.21192524396638396,
+        "maxdd": 5.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.0,
+        "exp": -0.8014064518130848,
+        "maxdd": 4.007032259065424
+      }
+    }
+  },
+  "EUR/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 2.387522644489918,
+        "exp": 0.33206699580522825,
+        "maxdd": 1.4919722682184107
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 2.476713392234639,
+        "exp": 0.16978356243663212,
+        "maxdd": 0.22994788742276773
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 1.2823792854653955,
+        "exp": 0.15060228558154426,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 1.1349549355519037,
+        "exp": 0.07711710602965928,
+        "maxdd": 4.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 100,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 26,
+        "pf": 1.464680357160387,
+        "exp": 0.13591656667644547,
+        "maxdd": 3.0413434896533924
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 6.150164098444036,
+        "exp": 0.5615050874043324,
+        "maxdd": 1.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.0341787150340018,
+        "exp": 0.015602120100759388,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.6666666666666666,
+        "exp": -0.25,
+        "maxdd": 2.0
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 21,
+        "pf": 2.1119686375978706,
+        "exp": 0.34809744687879374,
+        "maxdd": 2.544486197445954
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 0.21986844341106432,
+        "exp": -0.43515394404177293,
+        "maxdd": 4.426321833488274
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 25,
+        "ema_slow": 60,
+        "pullback_pct": 0.7,
+        "sl_atr_mult": 1.2,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 32,
+        "pf": 1.5252365619427146,
+        "exp": 0.2514956305213715,
+        "maxdd": 3.3223533162217933
+      },
+      "OOS": {
+        "trades": 16,
+        "pf": 1.7553856766616025,
+        "exp": 0.3304812335394511,
+        "maxdd": 3.442112940536908
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "rsi_period": 18,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "sl_atr_mult": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 2.0055887973219066,
+        "exp": 0.3094119376375097,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.013252488649763357,
+        "exp": -0.7893980090801893,
+        "maxdd": 4.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 1.8,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 22,
+        "pf": 1.3642437930798577,
+        "exp": 0.1764424404540597,
+        "maxdd": 2.733458212052053
+      },
+      "OOS": {
+        "trades": 9,
+        "pf": 1.779406821233889,
+        "exp": 0.26771824687503226,
+        "maxdd": 2.091407665717933
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 1.8,
+        "squeeze_threshold": 0.015,
+        "sl_atr_mult": 2.2,
+        "rr": 2.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 0.42458945216900135,
+        "exp": -0.5162457156293209,
+        "maxdd": 6.984565739328383
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 11.65212302969043,
+        "exp": 0.7912358162542407,
+        "maxdd": 0.4177593073716181
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 2.514371439617051,
+        "exp": 0.30830770466168556,
+        "maxdd": 1.5772675612757228
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 110.80842484697271,
+        "exp": 0.13032579397636188,
+        "maxdd": 0.0035605408462414927
+      }
+    }
+  },
+  "AUD/CAD": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 0.9794533838072738,
+        "exp": -0.010416292160742455,
+        "maxdd": 6.097426110583577
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.0,
+        "exp": -0.8417479986262155,
+        "maxdd": 3.366991994504862
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 6.032464744959296,
+        "exp": 0.4974405375168785,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 2.1200822472612435,
+        "exp": 0.37336074908708117,
+        "maxdd": 1.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.8553213958018986,
+        "exp": -0.07215106780245994,
+        "maxdd": 5.681352251852494
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.03975905971631964,
+        "exp": -0.49885267741062694,
+        "maxdd": 2.078031279371416
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 0.15183881402886854,
+        "exp": -0.5663385054971503,
+        "maxdd": 5.097046549474352
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.209815998397425,
+        "exp": 0.10490799919871255,
+        "maxdd": 1.0
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 0.991759040204916,
+        "exp": -0.003697107244472152,
+        "maxdd": 4.075264538991632
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.8190720535961918,
+        "exp": -0.05720705094287691,
+        "maxdd": 1.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 36,
+        "pf": 1.391835550137446,
+        "exp": 0.17231586017342992,
+        "maxdd": 6.027577627150726
+      },
+      "OOS": {
+        "trades": 17,
+        "pf": 0.7585259712063184,
+        "exp": -0.13062439379113855,
+        "maxdd": 5.166165120844812
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "rsi_period": 18,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "sl_atr_mult": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 7,
+        "pf": 39.52588048448645,
+        "exp": 0.8554158219452562,
+        "maxdd": 0.15542566914279865
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 4.407712654841224,
+        "exp": 0.7732300301630851,
+        "maxdd": 0.6807176324546464
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 0.5920380010241578,
+        "exp": -0.18669115945624945,
+        "maxdd": 7.625592979854549
+      },
+      "OOS": {
+        "trades": 13,
+        "pf": 0.6454783002211679,
+        "exp": -0.16869569389500894,
+        "maxdd": 3.713365720454943
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.0,
+        "squeeze_threshold": 0.02,
+        "sl_atr_mult": 2.0,
+        "rr": 2.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 0.8210016232750637,
+        "exp": -0.08071527979004664,
+        "maxdd": 4.362932059744404
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 1.516370367913653,
+        "exp": 0.17024248322693422,
+        "maxdd": 1.2513990961664476
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.7,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 1.0910683296792618,
+        "exp": 0.04642418424277014,
+        "maxdd": 5.42563784666588
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.017570400531630427,
+        "exp": -0.7368221996012772,
+        "maxdd": 2.9472887984051086
+      }
+    }
+  },
+  "NZD/JPY": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 3.0818579239737356,
+        "exp": 0.49028957413094826,
+        "maxdd": 2.1747383948477976
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.0,
+        "exp": -0.8164041119902763,
+        "maxdd": 4.082020559951381
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 40,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.8,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 1.107929436466383,
+        "exp": 0.041985722939841374,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": Infinity,
+        "exp": 0.7804476154219735,
+        "maxdd": 0.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 19,
+        "pf": 1.7926919576129199,
+        "exp": 0.3455476957762159,
+        "maxdd": 5.0
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 0.4111199002076907,
+        "exp": -0.42062864270879236,
+        "maxdd": 3.9444004989615467
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "sl_atr_mult": 3.0,
+        "rr": 1.6,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 1.4653939764319874,
+        "exp": 0.1607903375449693,
+        "maxdd": 2.4549294938815596
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 0.1558108127320182,
+        "exp": -0.5811746272726604,
+        "maxdd": 4.0
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 1.2691688022058858,
+        "exp": 0.11990693570726518,
+        "maxdd": 4.123949555586964
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 0.8601525157986325,
+        "exp": -0.0658094545952798,
+        "maxdd": 2.910219427974172
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 25,
+        "ema_slow": 60,
+        "pullback_pct": 0.7,
+        "sl_atr_mult": 1.2,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 32,
+        "pf": 1.637360576884609,
+        "exp": 0.2650483714576009,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 18,
+        "pf": 2.202363279804772,
+        "exp": 0.5270953842387405,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "rsi_period": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "sl_atr_mult": 1.5,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.874609033676185,
+        "exp": 0.31409927741091676,
+        "maxdd": 4.175068570979629
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 1.3021069771166112,
+        "maxdd": 0.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 23,
+        "pf": 0.7619295664861481,
+        "exp": -0.1154448540799563,
+        "maxdd": 7.916025253537759
+      },
+      "OOS": {
+        "trades": 15,
+        "pf": 0.24572548592620827,
+        "exp": -0.5028496760491945,
+        "maxdd": 7.5920489943138465
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 2.8608879663661906,
+        "exp": 0.40471620645485146,
+        "maxdd": 2.1747383948477976
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.034306268322232034,
+        "exp": -0.6871237808279662,
+        "maxdd": 3.4356189041398313
+      }
+    }
+  },
+  "CAD/CHF": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.415756280269233,
+        "exp": 0.14175189759457757,
+        "maxdd": 2.814327746387825
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 45.33736617284768,
+        "exp": 0.747157789274666,
+        "maxdd": 0.05055495085309514
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 1.0538252048566465,
+        "exp": 0.0342524030905933,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.018420296602609763,
+        "exp": -0.6543864689315935,
+        "maxdd": 2.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 1.3464611709507457,
+        "exp": 0.14211045806571565,
+        "maxdd": 4.141059838806241
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 0.5374607718777527,
+        "maxdd": 0.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.3620506285177263,
+        "exp": 0.11859760869029234,
+        "maxdd": 1.6814681332674735
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 0.45406982386533506,
+        "exp": -0.30114174296104185,
+        "maxdd": 2.1583188171078915
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 19,
+        "pf": 1.6217094529168825,
+        "exp": 0.20752951837014214,
+        "maxdd": 2.064448566638967
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 0.5390844722069059,
+        "exp": -0.23475625576088122,
+        "maxdd": 2.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 15,
+        "ema_slow": 40,
+        "pullback_pct": 0.3,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 32,
+        "pf": 1.2351652820136851,
+        "exp": 0.09139127891346169,
+        "maxdd": 4.435898412783418
+      },
+      "OOS": {
+        "trades": 15,
+        "pf": 2.7972232328851647,
+        "exp": 0.316051650860634,
+        "maxdd": 1.1742241992873357
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "rsi_period": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "sl_atr_mult": 1.5,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.8340061715078373,
+        "exp": 0.3004675942943262,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.45889915978365925,
+        "exp": -0.2705504201081704,
+        "maxdd": 1.396538171136229
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 1.039352612592262,
+        "exp": 0.016921065198154027,
+        "maxdd": 3.569265839217153
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 0.40505241772471057,
+        "exp": -0.26648481560599446,
+        "maxdd": 3.7281574457127156
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 20,
+        "bb_std": 2.0,
+        "squeeze_threshold": 0.02,
+        "sl_atr_mult": 2.0,
+        "rr": 2.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 2.3235108387429033,
+        "exp": 0.40027758356481047,
+        "maxdd": 2.0856879813078173
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 2.7283780514920046,
+        "exp": 0.36788626335376534,
+        "maxdd": 1.4899540301691168
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.9567618881903235,
+        "exp": 0.21773624720546988,
+        "maxdd": 2.1860669812447577
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 4.804204651698149,
+        "exp": 0.5890636611092326,
+        "maxdd": 0.6193816737448989
+      }
+    }
+  },
+  "NZD/USD": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.3778897370570374,
+        "exp": -0.38238440933435475,
+        "maxdd": 7.359052903115521
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.43761710178000085,
+        "exp": -0.5140410609480437,
+        "maxdd": 3.6561642437921744
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 2.944516654180401,
+        "exp": 0.4526438521221467,
+        "maxdd": 1.7298265924271785
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 7.832537120033293,
+        "exp": 0.8190138252645944,
+        "maxdd": 0.7192178930399464
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 100,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 27,
+        "pf": 0.3193940302288846,
+        "exp": -0.4382313618957087,
+        "maxdd": 11.832246771184137
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 0.6244763818703781,
+        "exp": -0.17148743626712507,
+        "maxdd": 4.145332421351734
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "sl_atr_mult": 3.0,
+        "rr": 1.6,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 0.8339507327619313,
+        "exp": -0.04010804379424318,
+        "maxdd": 1.1738873055709065
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.0765458768539282,
+        "exp": -0.5593276750345104,
+        "maxdd": 2.7966383751725523
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 26,
+        "pf": 0.6775695815239586,
+        "exp": -0.2130497774130478,
+        "maxdd": 11.016619102265267
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 0.450264328144842,
+        "exp": -0.35340150333545867,
+        "maxdd": 6.9476210466964226
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 34,
+        "pf": 0.5230006681459842,
+        "exp": -0.3137448450254414,
+        "maxdd": 12.550269801221342
+      },
+      "OOS": {
+        "trades": 17,
+        "pf": 1.0614793810786813,
+        "exp": 0.03241531000066065,
+        "maxdd": 5.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "rsi_period": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "sl_atr_mult": 1.5,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 7,
+        "pf": 6.325734062353882,
+        "exp": 1.005476463269332,
+        "maxdd": 1.321570915948909
+      },
+      "OOS": {
+        "trades": 2,
+        "pf": 1.642799784202276,
+        "exp": 0.32139989210113795,
+        "maxdd": 1.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 1.8,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 0.7515512215788477,
+        "exp": -0.14906926705269144,
+        "maxdd": 5.188483198393855
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 0.4248547936830224,
+        "exp": -0.38343013754465166,
+        "maxdd": 6.40116165053582
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 16,
+        "pf": 0.32883473131436963,
+        "exp": -0.42487048674734273,
+        "maxdd": 7.628038823378799
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.0,
+        "exp": -0.4055914156924202,
+        "maxdd": 1.6223656627696807
+      }
+    }
+  },
+  "USD/SEK": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 0.3341765705146993,
+        "exp": -0.45538705343961855,
+        "maxdd": 8.888884630713125
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.0635784684448857,
+        "exp": 0.03178923422244287,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 2.031822910186777,
+        "exp": 0.34394097006225915,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 9,
+        "pf": 2.1400462528804987,
+        "exp": 0.3800154176268329,
+        "maxdd": 3.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 100,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 28,
+        "pf": 0.4677419315589701,
+        "exp": -0.2925073169014079,
+        "maxdd": 8.487185343634257
+      },
+      "OOS": {
+        "trades": 9,
+        "pf": 16.34673188589993,
+        "exp": 0.46957083701335267,
+        "maxdd": 0.25120054476923137
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 1.3839840710337203,
+        "exp": 0.12550293622650674,
+        "maxdd": 1.3176213049623282
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 1.1098591926546557,
+        "exp": 0.04805923995554874,
+        "maxdd": 1.1873108109679913
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.2,
+        "ema_period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 1.4275722354289297,
+        "exp": 0.12037374393133903,
+        "maxdd": 2.0393123744030657
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 1.0913513982089436,
+        "exp": 0.01689322554583582,
+        "maxdd": 1.479292716643024
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 33,
+        "pf": 0.9584209832047326,
+        "exp": -0.02264429015921967,
+        "maxdd": 3.411746912142731
+      },
+      "OOS": {
+        "trades": 12,
+        "pf": 1.7223048849488307,
+        "exp": 0.28127887401007046,
+        "maxdd": 1.8906605715077198
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 2.3134135560097495,
+        "exp": 0.5001114536203348,
+        "maxdd": 1.8077226425141486
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.854418870409657,
+        "exp": -0.09705408639356199,
+        "maxdd": 2.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 23,
+        "pf": 0.897593507408753,
+        "exp": -0.052799073622105695,
+        "maxdd": 6.914523967423097
+      },
+      "OOS": {
+        "trades": 9,
+        "pf": 0.7854494198079953,
+        "exp": -0.09531934724397975,
+        "maxdd": 2.0
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 0.28084189414467353,
+        "exp": -0.5044924651805565,
+        "maxdd": 9.080864373250016
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.0135784684448856,
+        "exp": 0.006789234222442847,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "EUR/NZD": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 16,
+        "pf": 0.6178987558091792,
+        "exp": -0.2626946053811893,
+        "maxdd": 9.0
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 3.5,
+        "exp": 0.7142857142857143,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 60,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 16,
+        "pf": 2.105944797754116,
+        "exp": 0.3496751143223931,
+        "maxdd": 3.0605743603689373
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 0.23393497243171743,
+        "exp": -0.6566271664870993,
+        "maxdd": 6.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 100,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 26,
+        "pf": 0.5182236270850289,
+        "exp": -0.2503066722170291,
+        "maxdd": 9.156070517629676
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 3.9762775081726347,
+        "exp": 0.6706157129687282,
+        "maxdd": 1.4785231963081213
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 13,
+        "pf": 0.4819042119539138,
+        "exp": -0.3586816994165212,
+        "maxdd": 5.0
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 1.1412568325572656,
+        "exp": 0.05630007247886437,
+        "maxdd": 2.2926046488824245
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.0,
+        "ema_period": 21,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 0.7896495123219912,
+        "exp": -0.09418027620619503,
+        "maxdd": 2.4136831929286178
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.37667647122295433,
+        "exp": -0.2762740710153836,
+        "maxdd": 1.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 37,
+        "pf": 0.9060151108219543,
+        "exp": -0.04945330651693002,
+        "maxdd": 9.027029039294725
+      },
+      "OOS": {
+        "trades": 15,
+        "pf": 2.781326032266129,
+        "exp": 0.5131218492813178,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 8,
+        "pf": 2.493339986933618,
+        "exp": 0.5730672340596641,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 8,
+        "pf": 1.3328546931964698,
+        "exp": 0.16642734659823488,
+        "maxdd": 2.0
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 22,
+        "pf": 1.0933929782430616,
+        "exp": 0.039088813148465636,
+        "maxdd": 3.3084584952813056
+      },
+      "OOS": {
+        "trades": 13,
+        "pf": 1.120793571551936,
+        "exp": 0.05879354070441893,
+        "maxdd": 2.8613875809253164
+      }
+    },
+    "BB_Squeeze_BO_D1": {
+      "params": {
+        "bb_period": 15,
+        "bb_std": 1.8,
+        "squeeze_threshold": 0.015,
+        "sl_atr_mult": 2.2,
+        "rr": 2.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 3.355366031246011,
+        "exp": 0.4643027316399868,
+        "maxdd": 1.5315653853115068
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 0.5489744014924521,
+        "exp": -0.2821583191261574,
+        "maxdd": 4.987190768898475
+      }
+    },
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 0.4860914498554224,
+        "exp": -0.36914875127757724,
+        "maxdd": 9.873133485738013
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 5.2334185741934585,
+        "exp": 0.8466837148386916,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "AUD/CHF": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.7146409266446059,
+        "exp": -0.1523588338425852,
+        "maxdd": 3.1725338351426915
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 2.692677678293471,
+        "exp": 0.29467940576211127,
+        "maxdd": 0.6963627146290534
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 2.069402657490461,
+        "exp": 0.4277610629961844,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 0.5151763567162837,
+        "exp": -0.3232157621891442,
+        "maxdd": 2.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 100,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 0.8813600869672229,
+        "exp": -0.05697541650807403,
+        "maxdd": 5.662467226456089
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 3.2348507514006917,
+        "exp": 0.2872521383633707,
+        "maxdd": 0.7939359588089259
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "sl_atr_mult": 3.0,
+        "rr": 1.6,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 10,
+        "pf": 0.8022503262718377,
+        "exp": -0.09887483686408109,
+        "maxdd": 2.7721817041604253
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": 1.8722026262188902,
+        "exp": 0.24846388284524382,
+        "maxdd": 0.6569969061774602
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 26,
+        "pf": 1.123532837451392,
+        "exp": 0.06590946754679138,
+        "maxdd": 5.925617731079564
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 0.7753184593384094,
+        "exp": -0.16237258686862388,
+        "maxdd": 5.083885984434455
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 34,
+        "pf": 1.4906252846680637,
+        "exp": 0.21227045937803257,
+        "maxdd": 4.496402604258662
+      },
+      "OOS": {
+        "trades": 13,
+        "pf": 1.0405861285037723,
+        "exp": 0.018484332437272648,
+        "maxdd": 2.759963051460203
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "rsi_period": 10,
+        "rsi_buy": 25,
+        "rsi_sell": 75,
+        "sl_atr_mult": 1.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 4.653025615912077,
+        "exp": 0.9132564039780192,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 0.0,
+        "exp": -0.7693542161094006,
+        "maxdd": 3.0774168644376023
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 1.1763677122638168,
+        "exp": 0.06880197150257757,
+        "maxdd": 2.2007038979952167
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 0.9503616392947004,
+        "exp": -0.018949400435833184,
+        "maxdd": 2.6914244412762973
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.7058132903166082,
+        "exp": -0.15711520896989814,
+        "maxdd": 3.01099457240886
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 2.6926776782934705,
+        "exp": 0.36834925720263906,
+        "maxdd": 0.8704533932863168
+      }
+    }
+  },
+  "USD/NOK": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.25,
+        "anti_chase_mult": 0.8,
+        "sl_atr_mult": 2.0,
+        "rr": 1.4,
+        "time_stop": 45
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 0.5464303069670321,
+        "exp": -0.28195328245388956,
+        "maxdd": 4.232634997343704
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.1776987806820605,
+        "exp": 0.08884939034103026,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 17,
+        "pf": 4.043696437327895,
+        "exp": 0.4454421632367385,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 9,
+        "pf": 2.006052515180962,
+        "exp": 0.35244511702853015,
+        "maxdd": 2.115795580638449
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 20,
+        "pf": 0.5309233291429263,
+        "exp": -0.3152117733670562,
+        "maxdd": 7.240699956108694
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.6784565282777907,
+        "exp": -0.19292608303332562,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 0.5522886295289837,
+        "exp": -0.26584686581576605,
+        "maxdd": 3.866572920828711
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 0.5681837210037494,
+        "exp": -0.2743559975626949,
+        "maxdd": 3.812121185432342
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 1.0,
+        "ema_period": 21,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 24,
+        "pf": 0.9162389842254914,
+        "exp": -0.039345662155847866,
+        "maxdd": 2.8080193359797665
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 4.433728944199427,
+        "exp": 0.624314353490805,
+        "maxdd": 1.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 15,
+        "ema_slow": 40,
+        "pullback_pct": 0.3,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 32,
+        "pf": 1.3413203403234886,
+        "exp": 0.14292929133508941,
+        "maxdd": 3.2458291676640734
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 2.8780045601204276,
+        "exp": 0.43696288245093434,
+        "maxdd": 1.496827125953745
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "rsi_period": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "sl_atr_mult": 1.5,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 9,
+        "pf": Infinity,
+        "exp": 1.1903461359175032,
+        "maxdd": 0.0
+      },
+      "OOS": {
+        "trades": 5,
+        "pf": 0.9863751898894096,
+        "exp": -0.005765462603804972,
+        "maxdd": 2.115795580638449
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 15,
+        "sl_atr_mult": 2.5,
+        "rr": 2.2,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 25,
+        "pf": 1.1864112535494797,
+        "exp": 0.05494604774460336,
+        "maxdd": 2.3699265668913445
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 0.7116623741000785,
+        "exp": -0.10875122710094791,
+        "maxdd": 2.706662203347002
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 0.4892182966630798,
+        "exp": -0.26750207460987396,
+        "maxdd": 4.5016601818488935
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 1.195325699928304,
+        "exp": 0.07353356911259318,
+        "maxdd": 1.0
+      }
+    }
+  },
+  "GOLD": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 25,
+        "r2_min": 0.28,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.0,
+        "rr": 1.6,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 5.87271397012893,
+        "exp": 0.7706238554312884,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 3.614138538170557,
+        "exp": 0.6535346345426393,
+        "maxdd": 1.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "atr_stop_mult": 1.5,
+        "tp_to_ma": true,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 18,
+        "pf": 1.0122749998809895,
+        "exp": 0.00571947439310283,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 0.3067959190851914,
+        "exp": -0.5446603492902068,
+        "maxdd": 7.625244890062895
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 21,
+        "pf": 3.0323608509967133,
+        "exp": 0.6879470773171948,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 10.106579085141322,
+        "exp": 1.300939869305903,
+        "maxdd": 1.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 15,
+        "atr_mult": 1.8,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 3.1875481226712967,
+        "exp": 0.47842564005428495,
+        "maxdd": 1.6103881462474303
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 2.6052555898162084,
+        "exp": 0.5856518907443714,
+        "maxdd": 4.0
+      }
+    },
+    "VolTarget_Trend_D1": {
+      "params": {
+        "vol_target": 0.8,
+        "ema_period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 15,
+        "pf": 1.7886541170129195,
+        "exp": 0.496614382228426,
+        "maxdd": 6.398398144211156
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 4.09913118898411,
+        "exp": 1.239652475593644,
+        "maxdd": 3.0
+      }
+    },
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 21,
+        "ema_slow": 50,
+        "pullback_pct": 0.5,
+        "sl_atr_mult": 1.5,
+        "rr": 2.0,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 27,
+        "pf": 2.7934101692941806,
+        "exp": 0.5205509929894855,
+        "maxdd": 3.1977367777772914
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 4.074122464020403,
+        "exp": 0.838397035641928,
+        "maxdd": 2.0
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 20,
+        "atr_mult": 2.0,
+        "rsi_period": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "sl_atr_mult": 1.5,
+        "time_stop": 20
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 1.0168455700931003,
+        "exp": 0.009130559757400932,
+        "maxdd": 5.0
+      },
+      "OOS": {
+        "trades": 16,
+        "pf": 0.29144813147148324,
+        "exp": -0.6199828849624522,
+        "maxdd": 9.919726159399236
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 20,
+        "sl_atr_mult": 2.0,
+        "rr": 2.0,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 22,
+        "pf": 2.1733283673737005,
+        "exp": 0.4006264249736826,
+        "maxdd": 2.0
+      },
+      "OOS": {
+        "trades": 16,
+        "pf": 2.1734879716214137,
+        "exp": 0.5153246885163477,
+        "maxdd": 4.026228828633957
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 2.5,
+        "rr": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 4.3616412315475594,
+        "exp": 0.6320834505037082,
+        "maxdd": 1.0
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": 14.547288029296285,
+        "exp": 0.9558925073562287,
+        "maxdd": 0.28223877879885384
+      }
+    }
+  },
+  "SILVER": {
+    "status": "ACTIVE",
+    "WEEKLY": {
+      "params": {
+        "adx_min": 30,
+        "r2_min": 0.34,
+        "anti_chase_mult": 0.3,
+        "sl_atr_mult": 3.0,
+        "rr": 1.8,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 12,
+        "pf": 1.2934508822302677,
+        "exp": 0.09725214146061473,
+        "maxdd": 3.492502373247468
+      },
+      "OOS": {
+        "trades": 3,
+        "pf": Infinity,
+        "exp": 1.3120456460903431,
+        "maxdd": 0.0
+      }
+    },
+    "BB_MR_D1": {
+      "params": {
+        "bb_len": 20,
+        "bb_std": 2.0,
+        "rsi_len": 14,
+        "rsi_buy": 30,
+        "rsi_sell": 70,
+        "atr_stop_mult": 1.2,
+        "tp_to_ma": true,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 9,
+        "pf": 1.8614339046241388,
+        "exp": 0.3828595131662839,
+        "maxdd": 4.0
+      },
+      "OOS": {
+        "trades": 7,
+        "pf": 0.41566481956192186,
+        "exp": -0.5008587260897813,
+        "maxdd": 6.0
+      }
+    },
+    "EMA_Trend_D1": {
+      "params": {
+        "ema_fast": 50,
+        "ema_slow": 200,
+        "sl_atr_mult": 1.8,
+        "rr": 2.0,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 21,
+        "pf": 1.423655548363727,
+        "exp": 0.20174073731606046,
+        "maxdd": 4.589982260520433
+      },
+      "OOS": {
+        "trades": 6,
+        "pf": 10.0,
+        "exp": 1.5,
+        "maxdd": 1.0
+      }
+    },
+    "Keltner_Trend_D1": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "sl_atr_mult": 3.0,
+        "rr": 1.6,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 11,
+        "pf": 0.7895059275851071,
+        "exp": -0.09567912382495133,
+        "maxdd": 3.0
+      },
+      "OOS": {
+        "trades": 10,
+        "pf": 1.616452599689241,
+        "exp": 0.23494533991419758,
+        "maxdd": 2.267244207775908
+      }
+    },
+    "VolTarget_Trend_D1": null,
+    "EMA_Pullback_H4": {
+      "params": {
+        "ema_fast": 15,
+        "ema_slow": 40,
+        "pullback_pct": 0.3,
+        "sl_atr_mult": 1.8,
+        "rr": 2.2,
+        "time_stop": 18
+      },
+      "IS": {
+        "trades": 30,
+        "pf": 1.227494890785426,
+        "exp": 0.09887370960790301,
+        "maxdd": 5.769771536759977
+      },
+      "OOS": {
+        "trades": 14,
+        "pf": 2.3956404490719603,
+        "exp": 0.48766192533354236,
+        "maxdd": 2.7362918407644874
+      }
+    },
+    "Keltner_MR_H4": {
+      "params": {
+        "ema_period": 25,
+        "atr_mult": 2.2,
+        "rsi_period": 18,
+        "rsi_buy": 35,
+        "rsi_sell": 65,
+        "sl_atr_mult": 1.8,
+        "time_stop": 25
+      },
+      "IS": {
+        "trades": 14,
+        "pf": 2.5969045491093037,
+        "exp": 0.46170603825400514,
+        "maxdd": 2.586612467560924
+      },
+      "OOS": {
+        "trades": 11,
+        "pf": 0.5121160377103898,
+        "exp": -0.3104716123661156,
+        "maxdd": 6.591714282396621
+      }
+    },
+    "Donchian_BO_D1": {
+      "params": {
+        "period": 25,
+        "sl_atr_mult": 1.8,
+        "rr": 1.8,
+        "time_stop": 35
+      },
+      "IS": {
+        "trades": 22,
+        "pf": 1.2110468661548603,
+        "exp": 0.0979320233396379,
+        "maxdd": 4.720402367923162
+      },
+      "OOS": {
+        "trades": 13,
+        "pf": 1.4296733785256512,
+        "exp": 0.23136258843688923,
+        "maxdd": 3.2
+      }
+    },
+    "BB_Squeeze_BO_D1": null,
+    "Regime_Switcher_D1": {
+      "params": {
+        "anti_chase_mult": 0.5,
+        "sl_atr_mult": 2.0,
+        "rr": 1.5,
+        "time_stop": 30
+      },
+      "IS": {
+        "trades": 19,
+        "pf": 1.0576706875115163,
+        "exp": 0.027035214198012535,
+        "maxdd": 4.765840728013532
+      },
+      "OOS": {
+        "trades": 4,
+        "pf": Infinity,
+        "exp": 1.18404238428014,
+        "maxdd": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+C:\AUTOMAZIONE\trainer_suggest.py:46: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  REPORT_OUT = os.path.join(LOGS, f"trainer_report_{datetime.utcnow().strftime('%Y%m%d_%H%M%S')}.txt")
+C:\AUTOMAZIONE\trainer_suggest.py:423: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  ts = datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
+✅ Advanced report: C:\AUTOMAZIONE\logs\trainer_report_20251024_093003.txt
+🧠 Multi-strategy softeners: C:\AUTOMAZIONE\params\softeners_plan.json
+📊 Analyzed 170 asset/strategy combinations
+🎯 Generated 0 parameter optimizations

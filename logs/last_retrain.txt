@@ -1,0 +1,216 @@
+CHF/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=6, PF=7.00, Exp=1.000, DD=1.0
+  BB_MR_D1            : OOS: tr=6, PF=0.43, Exp=-0.380, DD=4.0
+  EMA_Trend_D1        : OOS: tr=11, PF=1.70, Exp=0.298, DD=2.7
+  Keltner_Trend_D1    : OOS: tr=5, PF=1.53, Exp=0.132, DD=1.0
+  VolTarget_Trend_D1  : OOS: tr=1, PF=999.00, Exp=0.190, DD=0.0
+  EMA_Pullback_H4     : OOS: tr=13, PF=3.16, Exp=0.663, DD=2.0
+  Keltner_MR_H4       : OOS: tr=8, PF=0.59, Exp=-0.304, DD=6.0
+  Donchian_BO_D1      : OOS: tr=11, PF=1.52, Exp=0.249, DD=3.0
+  BB_Squeeze_BO_D1    : OOS: tr=8, PF=6.64, Exp=1.195, DD=1.0
+  Regime_Switcher_D1  : OOS: tr=4, PF=5.21, Exp=1.051, DD=1.0
+  WHY                 : BB_MR_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:tr<5; Keltner_MR_H4:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+EUR/AUD [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=1.55, Exp=0.145, DD=1.1
+  BB_MR_D1            : OOS: tr=9, PF=0.73, Exp=-0.137, DD=4.0
+  EMA_Trend_D1        : OOS: tr=7, PF=1.20, Exp=0.107, DD=2.0
+  Keltner_Trend_D1    : OOS: tr=5, PF=2.01, Exp=0.403, DD=2.0
+  VolTarget_Trend_D1  : OOS: tr=3, PF=0.69, Exp=-0.103, DD=1.0
+  EMA_Pullback_H4     : OOS: tr=14, PF=2.34, Exp=0.464, DD=2.0
+  Keltner_MR_H4       : OOS: tr=6, PF=0.76, Exp=-0.163, DD=4.0
+  Donchian_BO_D1      : OOS: tr=14, PF=0.96, Exp=-0.021, DD=6.0
+  BB_Squeeze_BO_D1    : OOS: tr=10, PF=1.01, Exp=0.007, DD=4.9
+  Regime_Switcher_D1  : OOS: tr=4, PF=0.00, Exp=-0.379, DD=1.5
+  WHY                 : WEEKLY:tr<5; BB_MR_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:tr<5,pf<1.05,exp<=0; Keltner_MR_H4:pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; BB_Squeeze_BO_D1:pf<1.05; Regime_Switcher_D1:tr<5,pf<1.05,exp<=0
+GBP/NZD [ACTIVE]
+  WEEKLY              : OOS: tr=3, PF=999.00, Exp=0.493, DD=0.0
+  BB_MR_D1            : OOS: tr=8, PF=1.20, Exp=0.099, DD=2.0
+  EMA_Trend_D1        : OOS: tr=5, PF=2.12, Exp=0.448, DD=1.0
+  Keltner_Trend_D1    : OOS: tr=5, PF=1.17, Exp=0.076, DD=1.5
+  VolTarget_Trend_D1  : OOS: tr=2, PF=0.00, Exp=-0.546, DD=1.1
+  EMA_Pullback_H4     : OOS: tr=16, PF=1.28, Exp=0.113, DD=5.3
+  Keltner_MR_H4       : OOS: tr=8, PF=0.96, Exp=-0.018, DD=1.0
+  Donchian_BO_D1      : OOS: tr=14, PF=0.52, Exp=-0.266, DD=5.9
+  BB_Squeeze_BO_D1    : OOS: tr=8, PF=2.08, Exp=0.307, DD=1.2
+  Regime_Switcher_D1  : OOS: tr=3, PF=999.00, Exp=0.192, DD=0.0
+  WHY                 : WEEKLY:tr<5; VolTarget_Trend_D1:tr<5,pf<1.05,exp<=0; Keltner_MR_H4:pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+CAD/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=0.80, Exp=-0.084, DD=1.7
+  BB_MR_D1            : OOS: tr=5, PF=4.46, Exp=0.692, DD=1.0
+  EMA_Trend_D1        : OOS: tr=7, PF=0.71, Exp=-0.163, DD=2.0
+  Keltner_Trend_D1    : OOS: tr=3, PF=0.03, Exp=-0.621, DD=1.9
+  VolTarget_Trend_D1  : OOS: tr=12, PF=0.57, Exp=-0.234, DD=3.9
+  EMA_Pullback_H4     : OOS: tr=16, PF=0.68, Exp=-0.170, DD=3.8
+  Keltner_MR_H4       : OOS: tr=1, PF=999.00, Exp=1.963, DD=0.0
+  Donchian_BO_D1      : OOS: tr=14, PF=0.29, Exp=-0.327, DD=4.6
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=0.78, Exp=-0.105, DD=1.9
+  WHY                 : WEEKLY:tr<5,pf<1.05,exp<=0; EMA_Trend_D1:pf<1.05,exp<=0; Keltner_Trend_D1:tr<5,pf<1.05,exp<=0; VolTarget_Trend_D1:pf<1.05,exp<=0; EMA_Pullback_H4:pf<1.05,exp<=0; Keltner_MR_H4:tr<5; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5,pf<1.05,exp<=0
+GBP/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=5, PF=3.77, Exp=0.556, DD=1.0
+  BB_MR_D1            : OOS: tr=1, PF=999.00, Exp=1.658, DD=0.0
+  EMA_Trend_D1        : OOS: tr=5, PF=1.12, Exp=0.072, DD=2.0
+  Keltner_Trend_D1    : OOS: tr=5, PF=0.02, Exp=-0.658, DD=3.3
+  VolTarget_Trend_D1  : OOS: tr=10, PF=0.27, Exp=-0.509, DD=5.6
+  EMA_Pullback_H4     : OOS: tr=17, PF=1.54, Exp=0.232, DD=3.0
+  Keltner_MR_H4       : OOS: tr=2, PF=999.00, Exp=1.611, DD=0.0
+  Donchian_BO_D1      : OOS: tr=12, PF=0.44, Exp=-0.239, DD=2.9
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=4.80, Exp=0.950, DD=1.0
+  WHY                 : BB_MR_D1:tr<5; Keltner_Trend_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:tr<5; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+AUD/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=1.28, Exp=0.071, DD=1.0
+  BB_MR_D1            : OOS: tr=10, PF=2.90, Exp=0.384, DD=1.0
+  EMA_Trend_D1        : OOS: tr=6, PF=1.09, Exp=0.047, DD=1.7
+  Keltner_Trend_D1    : OOS: tr=7, PF=0.28, Exp=-0.454, DD=3.4
+  VolTarget_Trend_D1  : OOS: tr=7, PF=1.21, Exp=0.071, DD=1.2
+  EMA_Pullback_H4     : OOS: tr=14, PF=3.89, Exp=0.699, DD=2.2
+  Keltner_MR_H4       : OOS: tr=6, PF=4.61, Exp=0.602, DD=1.0
+  Donchian_BO_D1      : OOS: tr=11, PF=0.46, Exp=-0.218, DD=2.4
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=3.11, Exp=0.549, DD=1.0
+  WHY                 : WEEKLY:tr<5; Keltner_Trend_D1:pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+USD/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=5, PF=0.00, Exp=-0.859, DD=4.3
+  BB_MR_D1            : OOS: tr=4, PF=0.59, Exp=-0.163, DD=1.6
+  EMA_Trend_D1        : OOS: tr=5, PF=0.00, Exp=-0.801, DD=4.0
+  Keltner_Trend_D1    : OOS: tr=6, PF=1.10, Exp=0.039, DD=1.3
+  VolTarget_Trend_D1  : OOS: tr=12, PF=1.28, Exp=0.112, DD=4.7
+  EMA_Pullback_H4     : OOS: tr=15, PF=1.95, Exp=0.366, DD=2.0
+  Keltner_MR_H4       : OOS: tr=3, PF=0.00, Exp=-0.691, DD=2.1
+  Donchian_BO_D1      : OOS: tr=11, PF=1.27, Exp=0.077, DD=1.0
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=5, PF=0.00, Exp=-0.801, DD=4.0
+  WHY                 : WEEKLY:pf<1.05,exp<=0; BB_MR_D1:tr<5,pf<1.05,exp<=0; EMA_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:tr<5,pf<1.05,exp<=0; Regime_Switcher_D1:pf<1.05,exp<=0
+EUR/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=2, PF=2.48, Exp=0.170, DD=0.2
+  BB_MR_D1            : OOS: tr=7, PF=1.13, Exp=0.077, DD=4.0
+  EMA_Trend_D1        : OOS: tr=10, PF=6.15, Exp=0.562, DD=1.0
+  Keltner_Trend_D1    : OOS: tr=4, PF=0.67, Exp=-0.250, DD=2.0
+  VolTarget_Trend_D1  : OOS: tr=8, PF=0.22, Exp=-0.435, DD=4.4
+  EMA_Pullback_H4     : OOS: tr=16, PF=1.76, Exp=0.330, DD=3.4
+  Keltner_MR_H4       : OOS: tr=5, PF=0.01, Exp=-0.789, DD=4.0
+  Donchian_BO_D1      : OOS: tr=9, PF=1.78, Exp=0.268, DD=2.1
+  BB_Squeeze_BO_D1    : OOS: tr=6, PF=11.65, Exp=0.791, DD=0.4
+  Regime_Switcher_D1  : OOS: tr=3, PF=110.81, Exp=0.130, DD=0.0
+  WHY                 : WEEKLY:tr<5; Keltner_Trend_D1:tr<5,pf<1.05,exp<=0; VolTarget_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+AUD/CAD [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=0.00, Exp=-0.842, DD=3.4
+  BB_MR_D1            : OOS: tr=6, PF=2.12, Exp=0.373, DD=1.0
+  EMA_Trend_D1        : OOS: tr=4, PF=0.04, Exp=-0.499, DD=2.1
+  Keltner_Trend_D1    : OOS: tr=4, PF=1.21, Exp=0.105, DD=1.0
+  VolTarget_Trend_D1  : OOS: tr=4, PF=0.82, Exp=-0.057, DD=1.0
+  EMA_Pullback_H4     : OOS: tr=17, PF=0.76, Exp=-0.131, DD=5.2
+  Keltner_MR_H4       : OOS: tr=3, PF=4.41, Exp=0.773, DD=0.7
+  Donchian_BO_D1      : OOS: tr=13, PF=0.65, Exp=-0.169, DD=3.7
+  BB_Squeeze_BO_D1    : OOS: tr=11, PF=1.52, Exp=0.170, DD=1.3
+  Regime_Switcher_D1  : OOS: tr=4, PF=0.02, Exp=-0.737, DD=2.9
+  WHY                 : WEEKLY:tr<5,pf<1.05,exp<=0; EMA_Trend_D1:tr<5,pf<1.05,exp<=0; Keltner_Trend_D1:tr<5; VolTarget_Trend_D1:tr<5,pf<1.05,exp<=0; EMA_Pullback_H4:pf<1.05,exp<=0; Keltner_MR_H4:tr<5; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5,pf<1.05,exp<=0
+NZD/JPY [ACTIVE]
+  WEEKLY              : OOS: tr=5, PF=0.00, Exp=-0.816, DD=4.1
+  BB_MR_D1            : OOS: tr=6, PF=999.00, Exp=0.780, DD=0.0
+  EMA_Trend_D1        : OOS: tr=7, PF=0.41, Exp=-0.421, DD=3.9
+  Keltner_Trend_D1    : OOS: tr=6, PF=0.16, Exp=-0.581, DD=4.0
+  VolTarget_Trend_D1  : OOS: tr=11, PF=0.86, Exp=-0.066, DD=2.9
+  EMA_Pullback_H4     : OOS: tr=18, PF=2.20, Exp=0.527, DD=2.0
+  Keltner_MR_H4       : OOS: tr=3, PF=999.00, Exp=1.302, DD=0.0
+  Donchian_BO_D1      : OOS: tr=15, PF=0.25, Exp=-0.503, DD=7.6
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=5, PF=0.03, Exp=-0.687, DD=3.4
+  WHY                 : WEEKLY:pf<1.05,exp<=0; EMA_Trend_D1:pf<1.05,exp<=0; Keltner_Trend_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:tr<5; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:pf<1.05,exp<=0
+CAD/CHF [ACTIVE]
+  WEEKLY              : OOS: tr=3, PF=45.34, Exp=0.747, DD=0.1
+  BB_MR_D1            : OOS: tr=3, PF=0.02, Exp=-0.654, DD=2.0
+  EMA_Trend_D1        : OOS: tr=3, PF=999.00, Exp=0.537, DD=0.0
+  Keltner_Trend_D1    : OOS: tr=6, PF=0.45, Exp=-0.301, DD=2.2
+  VolTarget_Trend_D1  : OOS: tr=8, PF=0.54, Exp=-0.235, DD=2.0
+  EMA_Pullback_H4     : OOS: tr=15, PF=2.80, Exp=0.316, DD=1.2
+  Keltner_MR_H4       : OOS: tr=4, PF=0.46, Exp=-0.271, DD=1.4
+  Donchian_BO_D1      : OOS: tr=12, PF=0.41, Exp=-0.266, DD=3.7
+  BB_Squeeze_BO_D1    : OOS: tr=7, PF=2.73, Exp=0.368, DD=1.5
+  Regime_Switcher_D1  : OOS: tr=4, PF=4.80, Exp=0.589, DD=0.6
+  WHY                 : WEEKLY:tr<5; BB_MR_D1:tr<5,pf<1.05,exp<=0; EMA_Trend_D1:tr<5; Keltner_Trend_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:tr<5,pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+NZD/USD [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=0.44, Exp=-0.514, DD=3.7
+  BB_MR_D1            : OOS: tr=6, PF=7.83, Exp=0.819, DD=0.7
+  EMA_Trend_D1        : OOS: tr=12, PF=0.62, Exp=-0.171, DD=4.1
+  Keltner_Trend_D1    : OOS: tr=5, PF=0.08, Exp=-0.559, DD=2.8
+  VolTarget_Trend_D1  : OOS: tr=14, PF=0.45, Exp=-0.353, DD=6.9
+  EMA_Pullback_H4     : OOS: tr=17, PF=1.06, Exp=0.032, DD=5.0
+  Keltner_MR_H4       : OOS: tr=2, PF=1.64, Exp=0.321, DD=1.0
+  Donchian_BO_D1      : OOS: tr=12, PF=0.42, Exp=-0.383, DD=6.4
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=0.00, Exp=-0.406, DD=1.6
+  WHY                 : WEEKLY:tr<5,pf<1.05,exp<=0; EMA_Trend_D1:pf<1.05,exp<=0; Keltner_Trend_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:tr<5; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5,pf<1.05,exp<=0
+USD/SEK [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=1.06, Exp=0.032, DD=1.0
+  BB_MR_D1            : OOS: tr=9, PF=2.14, Exp=0.380, DD=3.0
+  EMA_Trend_D1        : OOS: tr=9, PF=16.35, Exp=0.470, DD=0.3
+  Keltner_Trend_D1    : OOS: tr=5, PF=1.11, Exp=0.048, DD=1.2
+  VolTarget_Trend_D1  : OOS: tr=8, PF=1.09, Exp=0.017, DD=1.5
+  EMA_Pullback_H4     : OOS: tr=12, PF=1.72, Exp=0.281, DD=1.9
+  Keltner_MR_H4       : OOS: tr=3, PF=0.85, Exp=-0.097, DD=2.0
+  Donchian_BO_D1      : OOS: tr=9, PF=0.79, Exp=-0.095, DD=2.0
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=1.01, Exp=0.007, DD=1.0
+  WHY                 : WEEKLY:tr<5; Keltner_MR_H4:tr<5,pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5,pf<1.05
+EUR/NZD [ACTIVE]
+  WEEKLY              : OOS: tr=7, PF=3.50, Exp=0.714, DD=1.0
+  BB_MR_D1            : OOS: tr=7, PF=0.23, Exp=-0.657, DD=6.0
+  EMA_Trend_D1        : OOS: tr=11, PF=3.98, Exp=0.671, DD=1.5
+  Keltner_Trend_D1    : OOS: tr=6, PF=1.14, Exp=0.056, DD=2.3
+  VolTarget_Trend_D1  : OOS: tr=3, PF=0.38, Exp=-0.276, DD=1.0
+  EMA_Pullback_H4     : OOS: tr=15, PF=2.78, Exp=0.513, DD=2.0
+  Keltner_MR_H4       : OOS: tr=8, PF=1.33, Exp=0.166, DD=2.0
+  Donchian_BO_D1      : OOS: tr=13, PF=1.12, Exp=0.059, DD=2.9
+  BB_Squeeze_BO_D1    : OOS: tr=11, PF=0.55, Exp=-0.282, DD=5.0
+  Regime_Switcher_D1  : OOS: tr=5, PF=5.23, Exp=0.847, DD=1.0
+  WHY                 : BB_MR_D1:pf<1.05,exp<=0; VolTarget_Trend_D1:tr<5,pf<1.05,exp<=0; BB_Squeeze_BO_D1:pf<1.05,exp<=0
+AUD/CHF [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=2.69, Exp=0.295, DD=0.7
+  BB_MR_D1            : OOS: tr=3, PF=0.52, Exp=-0.323, DD=2.0
+  EMA_Trend_D1        : OOS: tr=10, PF=3.23, Exp=0.287, DD=0.8
+  Keltner_Trend_D1    : OOS: tr=3, PF=1.87, Exp=0.248, DD=0.7
+  VolTarget_Trend_D1  : OOS: tr=11, PF=0.78, Exp=-0.162, DD=5.1
+  EMA_Pullback_H4     : OOS: tr=13, PF=1.04, Exp=0.018, DD=2.8
+  Keltner_MR_H4       : OOS: tr=4, PF=0.00, Exp=-0.769, DD=3.1
+  Donchian_BO_D1      : OOS: tr=14, PF=0.95, Exp=-0.019, DD=2.7
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=2.69, Exp=0.368, DD=0.9
+  WHY                 : WEEKLY:tr<5; BB_MR_D1:tr<5,pf<1.05,exp<=0; Keltner_Trend_D1:tr<5; VolTarget_Trend_D1:pf<1.05,exp<=0; EMA_Pullback_H4:pf<1.05; Keltner_MR_H4:tr<5,pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+USD/NOK [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=1.18, Exp=0.089, DD=1.0
+  BB_MR_D1            : OOS: tr=9, PF=2.01, Exp=0.352, DD=2.1
+  EMA_Trend_D1        : OOS: tr=5, PF=0.68, Exp=-0.193, DD=2.0
+  Keltner_Trend_D1    : OOS: tr=6, PF=0.57, Exp=-0.274, DD=3.8
+  VolTarget_Trend_D1  : OOS: tr=11, PF=4.43, Exp=0.624, DD=1.0
+  EMA_Pullback_H4     : OOS: tr=14, PF=2.88, Exp=0.437, DD=1.5
+  Keltner_MR_H4       : OOS: tr=5, PF=0.99, Exp=-0.006, DD=2.1
+  Donchian_BO_D1      : OOS: tr=11, PF=0.71, Exp=-0.109, DD=2.7
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=1.20, Exp=0.074, DD=1.0
+  WHY                 : WEEKLY:tr<5; EMA_Trend_D1:pf<1.05,exp<=0; Keltner_Trend_D1:pf<1.05,exp<=0; Keltner_MR_H4:pf<1.05,exp<=0; Donchian_BO_D1:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+GOLD [ACTIVE]
+  WEEKLY              : OOS: tr=4, PF=3.61, Exp=0.654, DD=1.0
+  BB_MR_D1            : OOS: tr=14, PF=0.31, Exp=-0.545, DD=7.6
+  EMA_Trend_D1        : OOS: tr=7, PF=10.11, Exp=1.301, DD=1.0
+  Keltner_Trend_D1    : OOS: tr=11, PF=2.61, Exp=0.586, DD=4.0
+  VolTarget_Trend_D1  : OOS: tr=10, PF=4.10, Exp=1.240, DD=3.0
+  EMA_Pullback_H4     : OOS: tr=11, PF=4.07, Exp=0.838, DD=2.0
+  Keltner_MR_H4       : OOS: tr=16, PF=0.29, Exp=-0.620, DD=9.9
+  Donchian_BO_D1      : OOS: tr=16, PF=2.17, Exp=0.515, DD=4.0
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=14.55, Exp=0.956, DD=0.3
+  WHY                 : WEEKLY:tr<5; BB_MR_D1:pf<1.05,exp<=0; Keltner_MR_H4:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
+SILVER [ACTIVE]
+  WEEKLY              : OOS: tr=3, PF=999.00, Exp=1.312, DD=0.0
+  BB_MR_D1            : OOS: tr=7, PF=0.42, Exp=-0.501, DD=6.0
+  EMA_Trend_D1        : OOS: tr=6, PF=10.00, Exp=1.500, DD=1.0
+  Keltner_Trend_D1    : OOS: tr=10, PF=1.62, Exp=0.235, DD=2.3
+  VolTarget_Trend_D1  : —
+  EMA_Pullback_H4     : OOS: tr=14, PF=2.40, Exp=0.488, DD=2.7
+  Keltner_MR_H4       : OOS: tr=11, PF=0.51, Exp=-0.310, DD=6.6
+  Donchian_BO_D1      : OOS: tr=13, PF=1.43, Exp=0.231, DD=3.2
+  BB_Squeeze_BO_D1    : —
+  Regime_Switcher_D1  : OOS: tr=4, PF=999.00, Exp=1.184, DD=0.0
+  WHY                 : WEEKLY:tr<5; BB_MR_D1:pf<1.05,exp<=0; Keltner_MR_H4:pf<1.05,exp<=0; Regime_Switcher_D1:tr<5
